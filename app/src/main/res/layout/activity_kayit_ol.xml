@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ana_sayfa_arka_plan"
+    tools:context=".kayit_ol">
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:hint="E-posta"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        app:layout_marginTop="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        app:layout_marginTop="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <EditText
+        android:id="@+id/confirmPasswordEditText"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:hint="Şifreyi Doğrula"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        app:layout_marginTop="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <Button
+        android:id="@+id/buttonKayitOl"
+        android:layout_width="206dp"
+        android:layout_height="72dp"
+        android:backgroundTint="@color/dark_coffee"
+        android:text="Kayıt Ol"
+        android:textColor="@color/design_default_color_background"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

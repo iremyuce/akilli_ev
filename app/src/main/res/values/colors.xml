@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="kahve" > #C19A6B</color>
+    <color name="süt_kahve" > #D2B48C</color>
+    <color name="dark_coffee">#6F4E37</color>
+    <color name="coffee">#8B4513</color>
+    <color name="caramel">#C68E17</color>
+    <color name="beige">#F5F5DC</color>
+    <color name="cream">#FFFDD0</color>
+
+</resources>
