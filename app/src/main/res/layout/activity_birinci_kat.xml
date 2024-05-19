@@ -9,79 +9,102 @@
 
         <ImageButton
             android:id="@+id/imageButtonEbeveynBanyo"
-            android:layout_width="178dp"
-            android:layout_height="147dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="118dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginBottom="46dp"
             android:background="@drawable/yatak_odasi"
             android:contentDescription="TODO"
             android:gravity="center"
             android:scaleType="centerInside"
             android:src="@drawable/ebeveynbanyo"
             app:barrierAllowsGoneWidgets="false"
+            app:layout_constraintBottom_toTopOf="@+id/imageCocukOdasi"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonYatakOdasi"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ebeveynbanyo"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="118dp" />
+            tools:ignore="MissingConstraints" />
 
         <ImageButton
             android:id="@+id/imageButtonYatakOdasi"
-            android:layout_width="178dp"
-            android:layout_height="147dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="118dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="46dp"
             android:background="@drawable/yatak_odasi"
             android:contentDescription="TODO"
             android:gravity="center"
             android:scaleType="centerInside"
             android:src="@drawable/mutfak"
             app:barrierAllowsGoneWidgets="false"
+            app:layout_constraintBottom_toTopOf="@+id/imageButtonBanyo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonEbeveynBanyo"
+            app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/yatak_odasi"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="217dp"
-            tools:layout_editor_absoluteY="118dp" />
+            tools:ignore="MissingConstraints" />
 
         <ImageButton
             android:id="@+id/imageButtonCalismaOdasi"
             android:layout_width="178dp"
-            android:layout_height="147dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="76dp"
             android:background="@drawable/yatak_odasi"
             android:contentDescription="TODO"
             android:gravity="center"
             android:scaleType="centerInside"
             android:src="@drawable/mutfak"
             app:barrierAllowsGoneWidgets="false"
-            app:srcCompat="@drawable/yatak_odasi"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="126dp"
-            tools:layout_editor_absoluteY="508dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageCocukOdasi"
+            app:srcCompat="@drawable/cocuk_odasi_buton"
+            tools:ignore="MissingConstraints" />
 
 
         <ImageButton
             android:id="@+id/imageButtonBanyo"
-            android:layout_width="178dp"
-            android:layout_height="147dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="273dp"
             android:background="@drawable/banyo"
             android:contentDescription="TODO"
             android:gravity="center"
             android:scaleType="centerInside"
             android:src="@drawable/mutfak"
             app:barrierAllowsGoneWidgets="false"
-            app:srcCompat="@drawable/banyo"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="212dp"
-            tools:layout_editor_absoluteY="311dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageCocukOdasi"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonYatakOdasi"
+            app:srcCompat="@drawable/calısma_odas"
+            tools:ignore="MissingConstraints" />
 
         <ImageButton
             android:id="@+id/imageCocukOdasi"
-            android:layout_width="178dp"
-            android:layout_height="147dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="50dp"
             android:background="@drawable/banyo"
             android:contentDescription="TODO"
             android:gravity="center"
             android:scaleType="centerInside"
             android:src="@drawable/mutfak"
             app:barrierAllowsGoneWidgets="false"
+            app:layout_constraintBottom_toTopOf="@+id/imageButtonCalismaOdasi"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonBanyo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonEbeveynBanyo"
             app:srcCompat="@drawable/banyo"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="311dp" />
+            tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

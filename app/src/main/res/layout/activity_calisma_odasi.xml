@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/beige"
+    android:background="@drawable/calisma_odasi"
     tools:context=".CalismaOdasi">
 
 
     <ImageButton
         android:id="@+id/imageButtonAkilliKilit"
-        android:layout_width="193dp"
-        android:layout_height="177dp"
+        android:layout_width="169dp"
+        android:layout_height="158dp"
         android:background="null"
         android:contentDescription="TODO"
         android:gravity="center"
@@ -19,13 +19,13 @@
         android:src="@drawable/akilli_kilit"
         app:barrierAllowsGoneWidgets="false"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="68dp" />
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="163dp" />
 
     <ImageButton
         android:id="@+id/imageButtonPC"
-        android:layout_width="207dp"
-        android:layout_height="171dp"
+        android:layout_width="179dp"
+        android:layout_height="153dp"
         android:background="null"
         android:contentDescription="TODO"
         android:gravity="center"
@@ -34,13 +34,13 @@
         app:barrierAllowsGoneWidgets="false"
         app:srcCompat="@drawable/monitor"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="188dp"
-        tools:layout_editor_absoluteY="210dp" />
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="165dp" />
 
     <ImageButton
         android:id="@+id/imageButtonSesSistemi"
-        android:layout_width="210dp"
-        android:layout_height="175dp"
+        android:layout_width="200dp"
+        android:layout_height="163dp"
         android:background="null"
         android:contentDescription="TODO"
         android:gravity="center"
@@ -54,7 +54,7 @@
 
     <ImageButton
         android:id="@+id/imageButtonLamba"
-        android:layout_width="203dp"
+        android:layout_width="188dp"
         android:layout_height="163dp"
         android:background="null"
         android:contentDescription="TODO"
@@ -65,6 +65,6 @@
         app:srcCompat="@drawable/masa_lambasi"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="562dp" />
+        tools:layout_editor_absoluteY="381dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,9 +14,9 @@
             android:background="null"
             android:gravity="center"
             android:scaleType="centerInside"
-            android:src="@drawable/mutfak"
+            android:src="@drawable/birincikat"
             app:barrierAllowsGoneWidgets="false"
-            app:srcCompat="@drawable/bahce"
+            app:srcCompat="@drawable/birincikat"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="221dp"
             tools:layout_editor_absoluteY="187dp" />
@@ -28,13 +28,13 @@
             android:background="null"
             android:gravity="center"
             android:scaleType="centerInside"
-            android:src="@drawable/banyo"
+            android:src="@drawable/zeminkat"
             app:barrierAllowsGoneWidgets="false"
-            app:srcCompat="@drawable/banyo"
+            app:srcCompat="@drawable/zeminkat"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="24dp"
             tools:layout_editor_absoluteY="192dp"
-            tools:srcCompat="@drawable/banyo" />
+            tools:srcCompat="@drawable/zeminkat" />
 
         <ImageButton
             android:id="@+id/imageButton2"
@@ -45,10 +45,11 @@
             android:scaleType="centerInside"
             android:src="@drawable/mutfak"
             app:barrierAllowsGoneWidgets="false"
-            app:srcCompat="@drawable/mutfak"
+            app:srcCompat="@drawable/bahce"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="24dp"
             tools:layout_editor_absoluteY="401dp" />
+
         <ImageButton
             android:id="@+id/imageButton4"
             android:layout_width="178dp"
@@ -58,7 +59,7 @@
             android:scaleType="centerInside"
             android:src="@drawable/salon"
             app:barrierAllowsGoneWidgets="false"
-            app:srcCompat="@drawable/salon"
+            app:srcCompat="@drawable/kısbahcesi"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="221dp"
             tools:layout_editor_absoluteY="401dp" />
