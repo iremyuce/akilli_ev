@@ -49,11 +49,11 @@
             tools:ignore="MissingConstraints" />
 
         <ImageButton
-            android:id="@+id/imageButtonCalismaOdasi"
+            android:id="@+id/imageButtonCpOdasi"
             android:layout_width="178dp"
             android:layout_height="0dp"
             android:layout_marginBottom="76dp"
-            android:background="@drawable/yatak_odasi"
+            android:background="null"
             android:contentDescription="TODO"
             android:gravity="center"
             android:scaleType="centerInside"
@@ -73,17 +73,17 @@
             android:layout_height="0dp"
             android:layout_marginEnd="21dp"
             android:layout_marginBottom="273dp"
-            android:background="@drawable/banyo"
+            android:background="@drawable/calisma_odasi"
             android:contentDescription="TODO"
             android:gravity="center"
             android:scaleType="centerInside"
-            android:src="@drawable/mutfak"
+            android:src="@drawable/calisma_odasi"
             app:barrierAllowsGoneWidgets="false"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageCocukOdasi"
             app:layout_constraintTop_toBottomOf="@+id/imageButtonYatakOdasi"
-            app:srcCompat="@drawable/calısma_odas"
+            app:srcCompat="@drawable/calisma_odasi_buton"
             tools:ignore="MissingConstraints" />
 
         <ImageButton
@@ -93,7 +93,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="18dp"
             android:layout_marginBottom="50dp"
-            android:background="@drawable/banyo"
+            android:background="@drawable/calisma_odasi_buton"
             android:contentDescription="TODO"
             android:gravity="center"
             android:scaleType="centerInside"
@@ -103,7 +103,7 @@
             app:layout_constraintEnd_toStartOf="@+id/imageButtonBanyo"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageButtonEbeveynBanyo"
-            app:srcCompat="@drawable/banyo"
+            app:srcCompat="@drawable/calisma_odasi_buton"
             tools:ignore="MissingConstraints" />
 
 
