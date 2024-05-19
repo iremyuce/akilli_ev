@@ -10,8 +10,9 @@
     <ImageButton
         android:id="@+id/imageButtonMutfak"
         android:layout_width="178dp"
-        android:layout_height="147dp"
+        android:layout_height="0dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="111dp"
         android:layout_marginEnd="23dp"
         android:layout_marginBottom="78dp"
         android:background="@drawable/mutfak"
@@ -23,25 +24,27 @@
         app:layout_constraintBottom_toTopOf="@+id/imageButtonMisafirOdasi"
         app:layout_constraintEnd_toStartOf="@+id/imageButtonSalon"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/mutfak"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/imageButtonSalon"
         android:layout_width="178dp"
-        android:layout_height="147dp"
+        android:layout_height="0dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="68dp"
+        android:layout_marginBottom="251dp"
         android:background="@drawable/salon"
         android:contentDescription="TODO"
         android:gravity="center"
         android:scaleType="centerInside"
         android:src="@drawable/salon"
         app:barrierAllowsGoneWidgets="false"
-        app:layout_constraintBottom_toTopOf="@+id/imageButtonAntre"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButtonMutfak"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonBanyo"
         app:srcCompat="@drawable/salon"
         tools:ignore="MissingConstraints" />
 
@@ -68,40 +71,45 @@
     <ImageButton
         android:id="@+id/imageButtonBanyo"
         android:layout_width="178dp"
-        android:layout_height="147dp"
+        android:layout_height="0dp"
         android:layout_marginStart="24dp"
+        android:layout_marginTop="111dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="75dp"
         android:background="@drawable/banyo"
         android:contentDescription="TODO"
         android:gravity="center"
         android:scaleType="centerInside"
         android:src="@drawable/banyo"
         app:barrierAllowsGoneWidgets="false"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonSalon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageButtonMisafirOdasi"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/banyo"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="111dp" />
+        tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/imageButtonMisafirOdasi"
         android:layout_width="178dp"
-        android:layout_height="147dp"
+        android:layout_height="0dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="23dp"
+        android:layout_marginBottom="248dp"
         android:background="@drawable/misafir_odasi"
         android:contentDescription="TODO"
         android:gravity="center"
         android:scaleType="centerInside"
         android:src="@drawable/misafir_odasi"
         app:barrierAllowsGoneWidgets="false"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageButtonAntre"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonMutfak"
         app:srcCompat="@drawable/misafir_odasi"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="336dp" />
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
