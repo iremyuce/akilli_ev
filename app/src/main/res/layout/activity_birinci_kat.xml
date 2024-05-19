@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/calisma_odasi"
+    android:background="@drawable/ana_sayfa_arka_plan"
     tools:context=".birinci_kat">
 
         <ImageButton
@@ -67,6 +67,7 @@
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="212dp"
             tools:layout_editor_absoluteY="311dp" />
+
         <ImageButton
             android:id="@+id/imageCocukOdasi"
             android:layout_width="178dp"
@@ -81,7 +82,6 @@
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="311dp" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

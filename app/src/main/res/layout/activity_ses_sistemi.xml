@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ses_sistemi">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="236dp"
+        android:layout_height="71dp"
+        android:gravity="center"
+        android:text="Ses Sistemi"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/sesSistemi"
+        android:layout_width="237dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="Ses Göstergesi"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <TextView
+        android:id="@+id/tv_sound_level"
+        android:layout_width="241dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="Ses Seviyesi: %50"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <SeekBar
+        android:id="@+id/seekbar_sound_level"
+        android:layout_width="355dp"
+        android:layout_height="81dp"
+        android:max="100"
+        android:progress="50"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <Button
+        android:id="@+id/imageButtonSesAc"
+        android:layout_width="174dp"
+        android:layout_height="66dp"
+        android:backgroundTint="@color/kahve"
+        android:text="Ses Sistemini Aç"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="577dp" />
+
+    <Button
+        android:id="@+id/imageButtonSesKapat"
+        android:layout_width="185dp"
+        android:layout_height="66dp"
+        android:backgroundTint="@color/kahve"
+        android:text="Ses Sistemini Kapat"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="577dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
