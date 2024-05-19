@@ -4,6 +4,68 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/cream"
     tools:context=".zeminKat">
+
+    <ImageButton
+        android:id="@+id/imageButtonMutfak"
+        android:layout_width="178dp"
+        android:layout_height="147dp"
+        android:background="@drawable/mutfak"
+        android:contentDescription="TODO"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/mutfak"
+        app:barrierAllowsGoneWidgets="false"
+        app:srcCompat="@drawable/mutfak"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSalon"
+        android:layout_width="178dp"
+        android:layout_height="147dp"
+        android:background="@drawable/salon"
+        android:contentDescription="TODO"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/salon"
+        app:barrierAllowsGoneWidgets="false"
+        app:srcCompat="@drawable/salon"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAntre"
+        android:layout_width="178dp"
+        android:layout_height="147dp"
+        android:background="@drawable/yatak_odasi"
+        android:contentDescription="TODO"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ebeveynbanyo"
+        app:barrierAllowsGoneWidgets="false"
+        app:srcCompat="@drawable/ebeveynbanyo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMisafirOdasi"
+        android:layout_width="178dp"
+        android:layout_height="147dp"
+        android:background="@drawable/yatak_odasi"
+        android:contentDescription="TODO"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ebeveynbanyo"
+        app:barrierAllowsGoneWidgets="false"
+        app:srcCompat="@drawable/ebeveynbanyo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="393dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

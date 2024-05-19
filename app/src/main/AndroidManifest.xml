@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Akilli_ev"
         tools:targetApi="31">
         <activity
+            android:name=".CocukOdasi"
+            android:exported="false" />
+        <activity
+            android:name=".CalismaOdasi"
+            android:exported="false" />
+        <activity
             android:name=".birinci_kat"
             android:exported="false" />
         <activity

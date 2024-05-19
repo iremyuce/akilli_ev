@@ -7,19 +7,11 @@
     android:background="@drawable/calisma_odasi"
     tools:context=".birinci_kat">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/calisma_odasi"
-        tools:context=".MainActivity"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
-
         <ImageButton
             android:id="@+id/imageButtonEbeveynBanyo"
             android:layout_width="178dp"
             android:layout_height="147dp"
-            android:background="@drawable/yatak_odası"
+            android:background="@drawable/yatak_odasi"
             android:contentDescription="TODO"
             android:gravity="center"
             android:scaleType="centerInside"
@@ -28,7 +20,7 @@
             app:srcCompat="@drawable/ebeveynbanyo"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="85dp" />
+            tools:layout_editor_absoluteY="118dp" />
 
         <ImageButton
             android:id="@+id/imageButtonYatakOdasi"
@@ -43,6 +35,53 @@
             app:srcCompat="@drawable/yatak_odasi"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="217dp"
-            tools:layout_editor_absoluteY="93dp" />
+            tools:layout_editor_absoluteY="118dp" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageButton
+            android:id="@+id/imageButtonCalismaOdasi"
+            android:layout_width="178dp"
+            android:layout_height="147dp"
+            android:background="@drawable/yatak_odasi"
+            android:contentDescription="TODO"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/mutfak"
+            app:barrierAllowsGoneWidgets="false"
+            app:srcCompat="@drawable/yatak_odasi"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="126dp"
+            tools:layout_editor_absoluteY="508dp" />
+
+
+        <ImageButton
+            android:id="@+id/imageButtonBanyo"
+            android:layout_width="178dp"
+            android:layout_height="147dp"
+            android:background="@drawable/banyo"
+            android:contentDescription="TODO"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/mutfak"
+            app:barrierAllowsGoneWidgets="false"
+            app:srcCompat="@drawable/banyo"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="212dp"
+            tools:layout_editor_absoluteY="311dp" />
+        <ImageButton
+            android:id="@+id/imageCocukOdasi"
+            android:layout_width="178dp"
+            android:layout_height="147dp"
+            android:background="@drawable/banyo"
+            android:contentDescription="TODO"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/mutfak"
+            app:barrierAllowsGoneWidgets="false"
+            app:srcCompat="@drawable/banyo"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="311dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
