@@ -4,6 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/cocuk_odasi"
     tools:context=".CocukOdasi">
+
+    <ImageButton
+        android:id="@+id/imageButtonAkilliKilit"
+        android:layout_width="205dp"
+        android:layout_height="173dp"
+        android:background="null"
+        android:contentDescription="TODO"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/akilli_kilit"
+        app:barrierAllowsGoneWidgets="false"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSesSistemi"
+        android:layout_width="210dp"
+        android:layout_height="170dp"
+        android:background="null"
+        android:contentDescription="TODO"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/hoparlor"
+        app:barrierAllowsGoneWidgets="false"
+        app:srcCompat="@drawable/hoparlor"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonPencereKilidi"
+        android:layout_width="210dp"
+        android:layout_height="170dp"
+        android:background="null"
+        android:contentDescription="TODO"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/hoparlor"
+        app:barrierAllowsGoneWidgets="false"
+        app:srcCompat="@drawable/hoparlor"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="501dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
