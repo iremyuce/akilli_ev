@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Akilli_ev"
         tools:targetApi="31">
         <activity
+            android:name=".zeminKat"
+            android:exported="false" />
+        <activity
             android:name=".kayit_ol"
             android:exported="false" />
         <activity

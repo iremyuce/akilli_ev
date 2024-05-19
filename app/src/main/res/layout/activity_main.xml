@@ -7,6 +7,99 @@
     android:background="@drawable/ana_sayfa_arka_plan"
     tools:context=".MainActivity">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ana_sayfa_arka_plan"
+        tools:context=".MainActivity">
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="178dp"
+            android:layout_height="147dp"
+            android:background="null"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/mutfak"
+            app:barrierAllowsGoneWidgets="false"
+            app:srcCompat="@drawable/bahce"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="217dp"
+            tools:layout_editor_absoluteY="456dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="179dp"
+            android:layout_height="142dp"
+            android:background="null"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/banyo"
+            app:barrierAllowsGoneWidgets="false"
+            app:srcCompat="@drawable/banyo"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="68dp"
+            tools:srcCompat="@drawable/banyo" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="178dp"
+            android:layout_height="147dp"
+            android:background="null"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/mutfak"
+            app:barrierAllowsGoneWidgets="false"
+            app:srcCompat="@drawable/mutfak"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="266dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="179dp"
+            android:layout_height="136dp"
+            android:background="null"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/mutfak"
+            app:barrierAllowsGoneWidgets="false"
+            app:srcCompat="@drawable/ebeveynbanyo"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="70dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="178dp"
+            android:layout_height="145dp"
+            android:background="null"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/salon"
+            app:barrierAllowsGoneWidgets="false"
+            app:srcCompat="@drawable/salon"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="217dp"
+            tools:layout_editor_absoluteY="266dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="178dp"
+        android:layout_height="147dp"
+        android:background="null"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/mutfak"
+        app:barrierAllowsGoneWidgets="false"
+        app:srcCompat="@drawable/yatak_odası"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="456dp" />
+
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="179dp"
@@ -45,7 +138,7 @@
         android:scaleType="centerInside"
         android:src="@drawable/mutfak"
         app:barrierAllowsGoneWidgets="false"
-        app:srcCompat="@drawable/ebeveyn_banyosu"
+        app:srcCompat="@drawable/ebeveynbanyo"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="216dp"
         tools:layout_editor_absoluteY="70dp" />
