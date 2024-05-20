@@ -80,12 +80,12 @@
             app:barrierAllowsGoneWidgets="false"
             app:layout_constraintBottom_toTopOf="@+id/imageButtonCalismaOdasi"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageCocukOdasi"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonCocukOdasi"
             app:srcCompat="@drawable/banyo"
             tools:ignore="MissingConstraints" />
 
         <ImageButton
-            android:id="@+id/imageCocukOdasi"
+            android:id="@+id/imageButtonCocukOdasi"
             android:layout_width="178dp"
             android:layout_height="147dp"
             android:layout_marginStart="16dp"

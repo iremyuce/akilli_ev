@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/imageButtonbirinciKat"
             android:layout_width="178dp"
             android:layout_height="147dp"
             android:background="null"
@@ -22,7 +22,7 @@
             tools:layout_editor_absoluteY="187dp" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButtonZeminKat"
             android:layout_width="179dp"
             android:layout_height="142dp"
             android:background="null"
@@ -37,31 +37,33 @@
             tools:srcCompat="@drawable/zeminkat" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/imageButtonBahce"
             android:layout_width="178dp"
             android:layout_height="147dp"
             android:background="null"
             android:gravity="center"
             android:scaleType="centerInside"
-            android:src="@drawable/mutfak"
+            android:src="@drawable/bahce"
             app:barrierAllowsGoneWidgets="false"
             app:srcCompat="@drawable/bahce"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="24dp"
-            tools:layout_editor_absoluteY="401dp" />
+            tools:layout_editor_absoluteY="401dp"
+            tools:srcCompat="@drawable/bahce"/>
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/imageButtonKisBahcesi"
             android:layout_width="178dp"
-            android:layout_height="145dp"
+            android:layout_height="147dp"
             android:background="null"
             android:gravity="center"
             android:scaleType="centerInside"
-            android:src="@drawable/salon"
+            android:src="@drawable/kısbahcesi"
             app:barrierAllowsGoneWidgets="false"
             app:srcCompat="@drawable/kısbahcesi"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="221dp"
-            tools:layout_editor_absoluteY="401dp" />
+            tools:layout_editor_absoluteY="401dp"
+            tools:srcCompat="@drawable/kısbahcesi" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

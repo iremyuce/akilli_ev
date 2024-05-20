@@ -8,24 +8,24 @@
     tools:context=".akilli_kilit">
 
     <TextView
-        android:id="@+id/tv_title"
+        android:id="@+id/textViewKilitIsim"
         android:layout_width="263dp"
         android:layout_height="46dp"
         android:text="Akıllı Kilit Uygulaması"
         android:textColor="@color/süt_kahve"
         android:textSize="24sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteX="74dp"
         tools:layout_editor_absoluteY="79dp" />
 
     <ImageView
-        android:id="@+id/iv_lock_indicator"
+        android:id="@+id/imageViewKilit"
         android:layout_width="317dp"
         android:layout_height="367dp"
         app:srcCompat="@drawable/kilit"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="155dp" />
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="163dp" />
 
     <Button
         android:id="@+id/imageButtonKilitAc"
@@ -35,8 +35,8 @@
         android:text="Kilidi Aç"
         android:textSize="16sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="199dp"
-        tools:layout_editor_absoluteY="575dp" />
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="577dp" />
 
     <Button
         android:id="@+id/imageButtonKilitle"
@@ -46,7 +46,7 @@
         android:text="Kilitle"
         android:textSize="16sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteX="34dp"
         tools:layout_editor_absoluteY="577dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,7 +8,7 @@
     tools:context=".CocukOdasi">
 
     <ImageButton
-        android:id="@+id/imageButtonAkilliKilit"
+        android:id="@+id/imageButtonAkilliKilitCocukOdasi"
         android:layout_width="205dp"
         android:layout_height="173dp"
         android:background="null"
@@ -22,7 +22,7 @@
         tools:layout_editor_absoluteY="127dp" />
 
     <ImageButton
-        android:id="@+id/imageButtonSesSistemi"
+        android:id="@+id/imageButtonSesSistemiCocukOdasi"
         android:layout_width="210dp"
         android:layout_height="170dp"
         android:background="null"
