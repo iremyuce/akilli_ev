@@ -17,13 +17,11 @@
             android:background="@drawable/birincikat"
             android:gravity="center"
             android:scaleType="centerInside"
-            android:src="@drawable/birincikat"
             app:barrierAllowsGoneWidgets="false"
             app:layout_constraintBottom_toTopOf="@+id/imageButtonKisBahcesi"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageButtonZeminKat"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/birincikat"
             tools:ignore="MissingConstraints" />
 
         <ImageButton
@@ -37,15 +35,12 @@
             android:background="@drawable/zeminkat"
             android:gravity="center"
             android:scaleType="centerInside"
-            android:src="@drawable/zeminkat"
             app:barrierAllowsGoneWidgets="false"
             app:layout_constraintBottom_toTopOf="@+id/imageButtonBahce"
             app:layout_constraintEnd_toStartOf="@+id/imageButtonbirinciKat"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/zeminkat"
-            tools:ignore="MissingConstraints"
-            tools:srcCompat="@drawable/zeminkat" />
+            tools:ignore="MissingConstraints" />
 
         <ImageButton
             android:id="@+id/imageButtonBahce"
@@ -57,15 +52,12 @@
             android:background="@drawable/bahce"
             android:gravity="center"
             android:scaleType="centerInside"
-            android:src="@drawable/bahce"
             app:barrierAllowsGoneWidgets="false"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/imageButtonKisBahcesi"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageButtonZeminKat"
-            app:srcCompat="@drawable/bahce"
-            tools:ignore="MissingConstraints"
-            tools:srcCompat="@drawable/bahce" />
+            tools:ignore="MissingConstraints" />
 
         <ImageButton
             android:id="@+id/imageButtonKisBahcesi"
@@ -76,14 +68,11 @@
             android:background="@drawable/kisbahcesi"
             android:gravity="center"
             android:scaleType="centerInside"
-            android:src="@drawable/kisbahcesi"
             app:barrierAllowsGoneWidgets="false"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageButtonBahce"
             app:layout_constraintTop_toBottomOf="@+id/imageButtonbirinciKat"
-            app:srcCompat="@drawable/kisbahcesi"
-            tools:ignore="MissingConstraints"
-            tools:srcCompat="@drawable/kisbahcesi" />
+            tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

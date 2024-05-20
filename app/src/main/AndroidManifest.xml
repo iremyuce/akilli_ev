@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Akilli_ev"
         tools:targetApi="31">
         <activity
+            android:name=".ses_sistemi_cocuk_odasi"
+            android:exported="false" />
+        <activity
+            android:name=".pencere_kilidi"
+            android:exported="false" />
+        <activity
+            android:name=".akilli_kilit_cocuk_odasi"
+            android:exported="false" />
+        <activity
+            android:name=".camasir_makinesi"
+            android:exported="false" />
+        <activity
+            android:name=".EbeveynBanyosu"
+            android:exported="false" />
+        <activity
             android:name=".ses_sistemi"
             android:exported="false" />
         <activity

@@ -10,7 +10,7 @@ import android.widget.ImageButton;
 
 public class CocukOdasi extends AppCompatActivity {
 
-    ImageButton akilli_kilit_cocuk_odasi;
+    ImageButton akilli_kilit_cocuk_oda;
     ImageButton pencere_kilidi;
     ImageButton ses_sistemi_cocuk_odasi;
 
@@ -19,14 +19,14 @@ public class CocukOdasi extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cocuk_odasi);
-        akilli_kilit_cocuk_odasi=findViewById(R.id.imageButtonAkilliKilitCocukOdasi);
+        akilli_kilit_cocuk_oda=findViewById(R.id.imageButtonAkilliKilitCocukOdasi);
         pencere_kilidi=findViewById(R.id.imageButtonPencereKilidi);
         ses_sistemi_cocuk_odasi=findViewById(R.id.imageButtonSesSistemiCocukOdasi);
 
-        akilli_kilit_cocuk_odasi.setOnClickListener(new View.OnClickListener() {
+        akilli_kilit_cocuk_oda.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CocukOdasi.this, MainActivity.class);
+                Intent i = new Intent(CocukOdasi.this, akilli_kilit_cocuk_odasi.class);
                 startActivity(i);
             }
         });
@@ -34,14 +34,14 @@ public class CocukOdasi extends AppCompatActivity {
         pencere_kilidi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CocukOdasi.this, MainActivity.class);
+                Intent i = new Intent(CocukOdasi.this, pencere_kilidi.class);
                 startActivity(i);
             }
         });
         ses_sistemi_cocuk_odasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CocukOdasi.this, MainActivity.class);
+                Intent i = new Intent(CocukOdasi.this, ses_sistemi_cocuk_odasi.class);
                 startActivity(i);
             }
         });

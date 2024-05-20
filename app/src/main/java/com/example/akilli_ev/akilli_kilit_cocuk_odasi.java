@@ -8,14 +8,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-public class calisma_odasi_kilit extends AppCompatActivity {
-
+public class akilli_kilit_cocuk_odasi extends AppCompatActivity {
     private boolean isLockOn = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calisma_odasi_kilit);
+        setContentView(R.layout.activity_akilli_kilit_cocuk_odasi);
+
 
         @SuppressLint({"MissingInflatedId", "LocalSuppress"})
         final ConstraintLayout lampLayout = findViewById(R.id.lampLayout);
@@ -25,11 +25,11 @@ public class calisma_odasi_kilit extends AppCompatActivity {
             public void onClick(View v) {
                 isLockOn = !isLockOn;
                 if (isLockOn) {
-                    lampLayout.setBackgroundResource(R.drawable.calisma_odasi_acik_kilit);
-                    Toast.makeText(calisma_odasi_kilit.this, "Kilit açıldı.", Toast.LENGTH_LONG).show();
+                    lampLayout.setBackgroundResource(R.drawable.cocuk_odasi_kilit_acik);
+                    Toast.makeText(akilli_kilit_cocuk_odasi.this, "Kilit açıldı.", Toast.LENGTH_LONG).show();
                 } else {
-                    lampLayout.setBackgroundResource(R.drawable.calisma_odasi_kapali_kilit);
-                    Toast.makeText(calisma_odasi_kilit.this, "Kilit kapatıldı.", Toast.LENGTH_LONG).show();
+                    lampLayout.setBackgroundResource(R.drawable.cocuk_odasi_kapali_kilit);
+                    Toast.makeText(akilli_kilit_cocuk_odasi.this, "Kilit kapatıldı.", Toast.LENGTH_LONG).show();
                 }
             }
         });

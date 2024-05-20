@@ -11,7 +11,7 @@ public class CalismaOdasi extends AppCompatActivity {
 
     ImageButton akilli_kilit;
     ImageButton pc;
-    ImageButton ses_sistemi;
+    ImageButton hoparlor;
     ImageButton lamba;
 
 
@@ -19,8 +19,9 @@ public class CalismaOdasi extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calisma_odasi);
+
         akilli_kilit=findViewById(R.id.imageButtonAkilliKilit);
-        ses_sistemi=findViewById(R.id.imageButtonSesSistemi);
+        hoparlor=findViewById(R.id.imageButtonSesSistemi);
         pc=findViewById(R.id.imageButtonPC);
         lamba=findViewById(R.id.imageButtonLamba);
 
@@ -31,10 +32,10 @@ public class CalismaOdasi extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        ses_sistemi.setOnClickListener(new View.OnClickListener() {
+        hoparlor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CalismaOdasi.this, MainActivity.class);
+                Intent i = new Intent(CalismaOdasi.this, ses_sistemi.class);
                 startActivity(i);
             }
         });

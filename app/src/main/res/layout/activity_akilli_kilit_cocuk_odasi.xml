@@ -5,7 +5,5 @@
     android:id="@+id/lampLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/calisma_odasi_acik_kilit"
-    tools:context=".calisma_odasi_kilit">
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:background="@drawable/cocuk_odasi_kapali_kilit"
+    tools:context=".akilli_kilit_cocuk_odasi" />
