@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     ImageButton birinci_kat;
     ImageButton zeminkat;
 
+    ImageButton genelCihazlar;
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         kis_bahcesi=findViewById(R.id.imageButtonKisBahcesi);
         birinci_kat=findViewById(R.id.imageButtonbirinciKat);
         zeminkat=findViewById(R.id.imageButtonZeminKat);
+        genelCihazlar=findViewById(R.id.imageButtonGenelCihazlar);
 
         bahce.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,6 +55,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, zeminKat.class);
+                startActivity(i);
+            }
+        });
+        genelCihazlar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, genel_cihazlar.class);
                 startActivity(i);
             }
         });

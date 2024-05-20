@@ -32,7 +32,7 @@
         android:layout_marginStart="197dp"
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/hoparlor"
+        android:background="@drawable/ses_sistemi"
         android:contentDescription="TODO"
         android:gravity="center"
         android:scaleType="centerInside"
@@ -42,7 +42,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ses_sistemi"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
@@ -52,16 +51,14 @@
         android:layout_marginStart="35dp"
         android:layout_marginEnd="166dp"
         android:layout_marginBottom="60dp"
-        android:background="@drawable/hoparlor"
+        android:background="@drawable/pencere_kilidi"
         android:contentDescription="TODO"
         android:gravity="center"
         android:scaleType="centerInside"
-        android:src="@drawable/hoparlor"
         app:barrierAllowsGoneWidgets="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/pencere_kilidi"
         tools:ignore="MissingConstraints" />
 
 

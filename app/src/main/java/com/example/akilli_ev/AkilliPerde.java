@@ -40,9 +40,9 @@ public class AkilliPerde extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (isYatakOdasiClosed) {
-                    Toast.makeText(AkilliPerde.this, "Yatak odası perdesi açıldı.", Toast.LENGTH_LONG).show();
-                } else {
                     Toast.makeText(AkilliPerde.this, "Yatak odası perdesi kapatıldı.", Toast.LENGTH_LONG).show();
+                } else {
+                    Toast.makeText(AkilliPerde.this, "Yatak odası perdesi açıldı.", Toast.LENGTH_LONG).show();
                 }
                 isYatakOdasiClosed = !isYatakOdasiClosed;
             }
@@ -52,9 +52,9 @@ public class AkilliPerde extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (isCocukOdasiClosed) {
-                    Toast.makeText(AkilliPerde.this, "Çocuk odası perdesi açıldı.", Toast.LENGTH_LONG).show();
-                } else {
                     Toast.makeText(AkilliPerde.this, "Çocuk odası perdesi kapatıldı.", Toast.LENGTH_LONG).show();
+                } else {
+                    Toast.makeText(AkilliPerde.this, "Çocuk odası perdesi açıldı.", Toast.LENGTH_LONG).show();
                 }
                 isCocukOdasiClosed = !isCocukOdasiClosed;
             }
@@ -64,9 +64,9 @@ public class AkilliPerde extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (isSalonClosed) {
-                    Toast.makeText(AkilliPerde.this, "Salon perdesi açıldı.", Toast.LENGTH_LONG).show();
-                } else {
                     Toast.makeText(AkilliPerde.this, "Salon perdesi kapatıldı.", Toast.LENGTH_LONG).show();
+                } else {
+                    Toast.makeText(AkilliPerde.this, "Salon perdesi açıldı.", Toast.LENGTH_LONG).show();
                 }
                 isSalonClosed = !isSalonClosed;
             }
@@ -76,9 +76,9 @@ public class AkilliPerde extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (isMutfakClosed) {
-                    Toast.makeText(AkilliPerde.this, "Mutfak perdesi açıldı.", Toast.LENGTH_LONG).show();
-                } else {
                     Toast.makeText(AkilliPerde.this, "Mutfak perdesi kapatıldı.", Toast.LENGTH_LONG).show();
+                } else {
+                    Toast.makeText(AkilliPerde.this, "Mutfak perdesi açıldı.", Toast.LENGTH_LONG).show();
                 }
                 isMutfakClosed = !isMutfakClosed;
             }
@@ -88,9 +88,9 @@ public class AkilliPerde extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (isMisafirOdasiClosed) {
-                    Toast.makeText(AkilliPerde.this, "Misafir odası perdesi açıldı.", Toast.LENGTH_LONG).show();
-                } else {
                     Toast.makeText(AkilliPerde.this, "Misafir odası perdesi kapatıldı.", Toast.LENGTH_LONG).show();
+                } else {
+                    Toast.makeText(AkilliPerde.this, "Misafir odası perdesi açıldı.", Toast.LENGTH_LONG).show();
                 }
                 isMisafirOdasiClosed = !isMisafirOdasiClosed;
             }
@@ -100,9 +100,9 @@ public class AkilliPerde extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (isCalismaOdasiClosed) {
-                    Toast.makeText(AkilliPerde.this, "Çalışma odası perdesi açıldı.", Toast.LENGTH_LONG).show();
-                } else {
                     Toast.makeText(AkilliPerde.this, "Çalışma odası perdesi kapatıldı.", Toast.LENGTH_LONG).show();
+                } else {
+                    Toast.makeText(AkilliPerde.this, "Çalışma odası perdesi açıldı.", Toast.LENGTH_LONG).show();
                 }
                 isCalismaOdasiClosed = !isCalismaOdasiClosed;
             }

@@ -20,7 +20,7 @@ public class CalismaOdasi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calisma_odasi);
 
-        akilli_kilit=findViewById(R.id.imageButtonAkilliKilit);
+        akilli_kilit=findViewById(R.id.imageButtonPanjurPerde);
         hoparlor=findViewById(R.id.imageButtonSesSistemi);
         pc=findViewById(R.id.imageButtonPC);
         lamba=findViewById(R.id.imageButtonLamba);

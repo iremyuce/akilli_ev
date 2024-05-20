@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Akilli_ev"
         tools:targetApi="31">
         <activity
+            android:name=".genel_cihazlar"
+            android:exported="false" />
+        <activity
             android:name=".AkilliPanjur"
             android:exported="false" />
         <activity

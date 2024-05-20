@@ -9,7 +9,7 @@
 
 
     <ImageButton
-        android:id="@+id/imageButtonAkilliKilit"
+        android:id="@+id/imageButtonPanjurPerde"
         android:layout_width="181dp"
         android:layout_height="162dp"
         android:layout_marginStart="9dp"
@@ -42,7 +42,7 @@
         android:src="@drawable/monitor"
         app:barrierAllowsGoneWidgets="false"
         app:layout_constraintBottom_toTopOf="@+id/imageButtonLamba"
-        app:layout_constraintStart_toEndOf="@+id/imageButtonAkilliKilit"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonPanjurPerde"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/monitor"
         tools:ignore="MissingConstraints" />
