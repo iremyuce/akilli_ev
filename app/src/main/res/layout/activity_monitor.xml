@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/monitor_arka_plan"
+    tools:context=".Monitor">
+
+    <Switch
+        android:id="@+id/switchMonitorAcKapa"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="302dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="23dp"
+        android:text="Monitörü Açma/Kapama"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/switchDikey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switchDikey"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="21dp"
+        android:text="Ekranı Dikey Konuma Getir"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/switchYatay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchMonitorAcKapa" />
+
+    <Switch
+        android:id="@+id/switchYatay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="16dp"
+        android:text="Ekranı Yatay Konuma Getir"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewParlaklik"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchDikey" />
+
+    <TextView
+        android:id="@+id/textViewParlaklik"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Parlaklık"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/seekBarParlaklik"
+        app:layout_constraintEnd_toEndOf="@+id/textViewSes"
+        app:layout_constraintStart_toStartOf="@+id/seekBarParlaklik"
+        app:layout_constraintTop_toBottomOf="@+id/switchYatay" />
+
+    <SeekBar
+        android:id="@+id/seekBarParlaklik"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSes"
+        app:layout_constraintEnd_toEndOf="@+id/seekBarSes"
+        app:layout_constraintStart_toStartOf="@+id/textViewSes"
+        app:layout_constraintTop_toBottomOf="@+id/textViewParlaklik" />
+
+    <TextView
+        android:id="@+id/textViewSes"
+        android:layout_width="236dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="98dp"
+        android:text="Ses Düzeyi"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarParlaklik" />
+
+    <SeekBar
+        android:id="@+id/seekBarSes"
+        android:layout_width="382dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textViewSes"
+        app:layout_constraintTop_toTopOf="@+id/textViewSes" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

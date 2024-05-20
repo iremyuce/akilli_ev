@@ -13,13 +13,16 @@
         android:theme="@style/Theme.Akilli_ev"
         tools:targetApi="31">
         <activity
+            android:name=".ses_sistemi"
+            android:exported="false" />
+        <activity
+            android:name=".Monitor"
+            android:exported="false" />
+        <activity
             android:name=".calisma_odasi_kilit"
             android:exported="false" />
         <activity
             android:name=".MasaLambasi"
-            android:exported="false" />
-        <activity
-            android:name=".ses_sistemi"
             android:exported="false" />
         <activity
             android:name=".akilli_kilit"
