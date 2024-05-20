@@ -26,7 +26,7 @@ public class CocukOdasi extends AppCompatActivity {
         akilli_kilit_cocuk_odasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CocukOdasi.this, akilli_kilit_cocuk_odasi.class);
+                Intent i = new Intent(CocukOdasi.this, MainActivity.class);
                 startActivity(i);
             }
         });
@@ -34,14 +34,14 @@ public class CocukOdasi extends AppCompatActivity {
         pencere_kilidi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CocukOdasi.this, pencere_kilidi.class);
+                Intent i = new Intent(CocukOdasi.this, MainActivity.class);
                 startActivity(i);
             }
         });
         ses_sistemi_cocuk_odasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CocukOdasi.this, ses_sistemi_cocuk_odasi.class);
+                Intent i = new Intent(CocukOdasi.this, MainActivity.class);
                 startActivity(i);
             }
         });

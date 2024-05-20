@@ -30,7 +30,7 @@ public class birinci_kat extends AppCompatActivity {
         banyo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(birinci_kat.this, banyo.class);
+                Intent i = new Intent(birinci_kat.this, MainActivity.class);
                 startActivity(i);
             }
         });
@@ -45,7 +45,7 @@ public class birinci_kat extends AppCompatActivity {
         yatak_odasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(birinci_kat.this, yatak_odasi.class);
+                Intent i = new Intent(birinci_kat.this, MainActivity.class);
                 startActivity(i);
             }
         });
@@ -61,7 +61,7 @@ public class birinci_kat extends AppCompatActivity {
         ebeveyn_banyosu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(birinci_kat.this, ebeveyn_banyosu.class);
+                Intent i = new Intent(birinci_kat.this, MainActivity.class);
                 startActivity(i);
             }
         });

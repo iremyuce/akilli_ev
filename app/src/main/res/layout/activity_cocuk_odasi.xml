@@ -11,7 +11,7 @@
         android:id="@+id/imageButtonAkilliKilitCocukOdasi"
         android:layout_width="205dp"
         android:layout_height="173dp"
-        android:background="null"
+        android:background="@drawable/akilli_kilit"
         android:contentDescription="TODO"
         android:gravity="center"
         android:scaleType="centerInside"
@@ -25,7 +25,7 @@
         android:id="@+id/imageButtonSesSistemiCocukOdasi"
         android:layout_width="210dp"
         android:layout_height="170dp"
-        android:background="null"
+        android:background="@drawable/hoparlor"
         android:contentDescription="TODO"
         android:gravity="center"
         android:scaleType="centerInside"
@@ -33,14 +33,14 @@
         app:barrierAllowsGoneWidgets="false"
         app:srcCompat="@drawable/hoparlor"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="198dp"
-        tools:layout_editor_absoluteY="320dp" />
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="321dp" />
 
     <ImageButton
         android:id="@+id/imageButtonPencereKilidi"
         android:layout_width="210dp"
         android:layout_height="170dp"
-        android:background="null"
+        android:background="@drawable/hoparlor"
         android:contentDescription="TODO"
         android:gravity="center"
         android:scaleType="centerInside"

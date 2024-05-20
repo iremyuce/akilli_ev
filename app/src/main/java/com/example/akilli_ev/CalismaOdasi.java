@@ -27,28 +27,28 @@ public class CalismaOdasi extends AppCompatActivity {
         akilli_kilit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CalismaOdasi.this, akilli_kilit.class);
+                Intent i = new Intent(CalismaOdasi.this, calisma_odasi_kilit.class);
                 startActivity(i);
             }
         });
         ses_sistemi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CalismaOdasi.this, ses_sistemi.class);
+                Intent i = new Intent(CalismaOdasi.this, MainActivity.class);
                 startActivity(i);
             }
         });
         pc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CalismaOdasi.this, monitor.class);
+                Intent i = new Intent(CalismaOdasi.this, MainActivity.class);
                 startActivity(i);
             }
         });
         lamba.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CalismaOdasi.this, ,MasaLambasi.class);
+                Intent i = new Intent(CalismaOdasi.this,MasaLambasi.class);
                 startActivity(i);
             }
         });

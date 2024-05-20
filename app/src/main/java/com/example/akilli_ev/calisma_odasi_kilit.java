@@ -1,22 +1,21 @@
 package com.example.akilli_ev;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import androidx.constraintlayout.widget.ConstraintLayout;
+public class calisma_odasi_kilit extends AppCompatActivity {
 
-public class MasaLambasi extends AppCompatActivity {
-
-    private boolean isLampOn = false;
+    private boolean isLockOn = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_masa_lambasi);
+        setContentView(R.layout.activity_calisma_odasi_kilit);
 
         @SuppressLint({"MissingInflatedId", "LocalSuppress"})
         final ConstraintLayout lampLayout = findViewById(R.id.lampLayout);
@@ -24,13 +23,13 @@ public class MasaLambasi extends AppCompatActivity {
         lampLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                isLampOn = !isLampOn;
-                if (isLampOn) {
-                    lampLayout.setBackgroundResource(R.drawable.masa_lambasi_acik);
-                    Toast.makeText(MasaLambasi.this,"Masa lambası açıldı. ",Toast.LENGTH_LONG).show();
+                isLockOn = !isLockOn;
+                if (isLockOn) {
+                    lampLayout.setBackgroundResource(R.drawable.acik_kilit);
+                    Toast.makeText(calisma_odasi_kilit.this, "Kilit açıldı.", Toast.LENGTH_LONG).show();
                 } else {
-                    lampLayout.setBackgroundResource(R.drawable.masa_lambasi_kapali);
-                    Toast.makeText(MasaLambasi.this,"Masa lambası kapatıldı. ",Toast.LENGTH_LONG).show();
+                    lampLayout.setBackgroundResource(R.drawable.kapali_kilit);
+                    Toast.makeText(calisma_odasi_kilit.this, "Kilit kapatıldı.", Toast.LENGTH_LONG).show();
                 }
             }
         });

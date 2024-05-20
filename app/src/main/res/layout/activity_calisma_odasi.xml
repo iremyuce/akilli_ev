@@ -10,61 +10,76 @@
 
     <ImageButton
         android:id="@+id/imageButtonAkilliKilit"
-        android:layout_width="169dp"
+        android:layout_width="0dp"
         android:layout_height="158dp"
-        android:background="null"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="163dp"
+        android:layout_marginEnd="21dp"
+        android:background="@drawable/akilli_kilit"
         android:contentDescription="TODO"
         android:gravity="center"
         android:scaleType="centerInside"
         android:src="@drawable/akilli_kilit"
         app:barrierAllowsGoneWidgets="false"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="163dp" />
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonPC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/imageButtonPC"
-        android:layout_width="179dp"
-        android:layout_height="153dp"
-        android:background="null"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="58dp"
+        android:background="@drawable/monitor"
         android:contentDescription="TODO"
         android:gravity="center"
         android:scaleType="centerInside"
         android:src="@drawable/monitor"
         app:barrierAllowsGoneWidgets="false"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonLamba"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonAkilliKilit"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/monitor"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="165dp" />
+        tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/imageButtonSesSistemi"
         android:layout_width="204dp"
-        android:layout_height="170dp"
-        android:background="null"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="187dp"
+        android:background="@drawable/hoparlor"
         android:contentDescription="TODO"
         android:gravity="center"
         android:scaleType="centerInside"
         android:src="@drawable/hoparlor"
         app:barrierAllowsGoneWidgets="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonPC"
         app:srcCompat="@drawable/hoparlor"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="374dp" />
+        tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/imageButtonLamba"
         android:layout_width="195dp"
-        android:layout_height="168dp"
-        android:background="null"
+        android:layout_height="0dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="187dp"
+        android:background="@drawable/masa_lambasi"
         android:contentDescription="TODO"
         android:gravity="center"
         android:scaleType="centerInside"
         android:src="@drawable/masa_lambasi"
         app:barrierAllowsGoneWidgets="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonPC"
         app:srcCompat="@drawable/masa_lambasi"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="376dp" />
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

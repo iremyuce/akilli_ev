@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Akilli_ev"
         tools:targetApi="31">
         <activity
+            android:name=".calisma_odasi_kilit"
+            android:exported="false" />
+        <activity
             android:name=".MasaLambasi"
             android:exported="false" />
         <activity
@@ -40,10 +43,10 @@
             android:name=".sifremi_unuttum"
             android:exported="false" />
         <activity
-            android:name=".giris_ekrani"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".giris_ekrani"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

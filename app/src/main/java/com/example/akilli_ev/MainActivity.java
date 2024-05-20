@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         bahce.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, bahce.class);
+                Intent i = new Intent(MainActivity.this, MainActivity.class);
                 startActivity(i);
             }
         });
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         kis_bahcesi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, kis_bahcesi.class);
+                Intent i = new Intent(MainActivity.this, MainActivity.class);
                 startActivity(i);
             }
         });

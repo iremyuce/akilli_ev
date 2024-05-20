@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/masa_lambasi_kapali"
+    android:background="@drawable/acik_kilit"
     android:id="@+id/lampLayout"
-    tools:context=".MasaLambasi">
+    tools:context=".calisma_odasi_kilit">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
