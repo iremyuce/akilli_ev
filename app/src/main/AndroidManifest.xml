@@ -13,6 +13,42 @@
         android:theme="@style/Theme.Akilli_ev"
         tools:targetApi="31">
         <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".termostat_misafir_odasi"
+            android:exported="false" />
+        <activity
+            android:name=".ocak"
+            android:exported="false" />
+        <activity
+            android:name=".mutfak"
+            android:exported="false" />
+        <activity
+            android:name=".misafir_odasi"
+            android:exported="false" />
+        <activity
+            android:name=".mikrodalga"
+            android:exported="false" />
+        <activity
+            android:name=".kahve_makines"
+            android:exported="false" />
+        <activity
+            android:name=".kacak_tespit"
+            android:exported="false" />
+        <activity
+            android:name=".hava_tmzlyici_misafir_odasi"
+            android:exported="false" />
+        <activity
+            android:name=".firin"
+            android:exported="false" />
+        <activity
+            android:name=".Buzdolabi"
+            android:exported="false" />
+        <activity
+            android:name=".bulasik_makinesi"
+            android:exported="false" />
+        <activity
             android:name=".genel_cihazlar"
             android:exported="false" />
         <activity

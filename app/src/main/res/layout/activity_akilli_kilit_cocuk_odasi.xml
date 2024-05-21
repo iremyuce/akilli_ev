@@ -6,4 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/cocuk_odasi_kapali_kilit"
-    tools:context=".akilli_kilit_cocuk_odasi" />
+    tools:context=".akilli_kilit_cocuk_odasi" >
+    <ImageView
+        android:id="@+id/imageViewgeri"
+        android:layout_width="109dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/geri" />
+</androidx.constraintlayout.widget.ConstraintLayout>

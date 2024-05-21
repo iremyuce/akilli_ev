@@ -7,87 +7,113 @@
     android:background="@drawable/ana_sayfa_arka_plan"
     tools:context=".MainActivity">
 
-        <ImageButton
-            android:id="@+id/imageButtonbirinciKat"
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
             android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginTop="148dp"
-            android:layout_marginEnd="11dp"
-            android:layout_marginBottom="56dp"
-            android:background="@drawable/birincikat"
-            android:gravity="center"
-            android:scaleType="centerInside"
-            app:barrierAllowsGoneWidgets="false"
-            app:layout_constraintBottom_toTopOf="@+id/imageButtonKisBahcesi"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="224dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageButtonZeminKat"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="MissingConstraints" />
-
-        <ImageButton
-            android:id="@+id/imageButtonZeminKat"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginStart="23dp"
-            android:layout_marginTop="148dp"
-            android:layout_marginEnd="19dp"
-            android:layout_marginBottom="60dp"
-            android:background="@drawable/zeminkat"
-            android:gravity="center"
-            android:scaleType="centerInside"
-            app:barrierAllowsGoneWidgets="false"
-            app:layout_constraintBottom_toTopOf="@+id/imageButtonBahce"
-            app:layout_constraintEnd_toStartOf="@+id/imageButtonbirinciKat"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="MissingConstraints" />
+            app:layout_constraintTop_toTopOf="parent">
 
-        <ImageButton
-            android:id="@+id/imageButtonBahce"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginBottom="233dp"
-            android:background="@drawable/bahce"
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                        <ImageButton
+                            android:id="@+id/imageButtonmutfak"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="8dp"
+                            android:background="@drawable/mutfak"
+                            android:scaleType="centerInside" />
+
+                        <ImageButton
+                            android:id="@+id/imageButtonsalon"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="8dp"
+                            android:background="@drawable/salon"
+                            android:scaleType="centerInside" />
+
+                        <ImageButton
+                            android:id="@+id/imageButtonantre"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="8dp"
+                            android:background="@drawable/antre"
+                            android:scaleType="centerInside" />
+
+                        <ImageButton
+                            android:id="@+id/imageButtonmisafir_odasi"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="8dp"
+                            android:background="@drawable/misafir_odasi"
+                            android:scaleType="centerInside" />
+                        <ImageButton
+                            android:id="@+id/imageButtonebeveynyatakodasi"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="8dp"
+                            android:background="@drawable/yatak_odasi"
+                            android:scaleType="centerInside" />
+                        <ImageButton
+                            android:id="@+id/imageButtoncocuk_odasi"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="8dp"
+                            android:background="@drawable/cocuk_odasi_buton"
+                            android:scaleType="centerInside" />
+
+                        <ImageButton
+                            android:id="@+id/imageButtoncalisma_odasi"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="8dp"
+                            android:background="@drawable/calisma_odasi_buton"
+                            android:scaleType="centerInside" />
+
+                        <ImageButton
+                            android:id="@+id/imageButtonebeveyn_banyosu"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="8dp"
+                            android:background="@drawable/ebeveynbanyo"
+                            android:scaleType="centerInside" />
+
+
+                        <ImageButton
+                            android:id="@+id/imageButtonkisbahcesi"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="8dp"
+                            android:background="@drawable/kisbahcesi"
+                            android:scaleType="centerInside" />
+
+                        <ImageButton
+                            android:id="@+id/imageButtonbahce"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="8dp"
+                            android:background="@drawable/bahce"
+                            android:scaleType="centerInside" />
+
+                </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="324dp"
+            android:layout_height="72dp"
             android:gravity="center"
-            android:scaleType="centerInside"
-            app:barrierAllowsGoneWidgets="false"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/imageButtonKisBahcesi"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButtonZeminKat"
-            tools:ignore="MissingConstraints" />
-
-        <ImageButton
-            android:id="@+id/imageButtonKisBahcesi"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginEnd="11dp"
-            android:layout_marginBottom="56dp"
-            android:background="@drawable/kisbahcesi"
-            android:gravity="center"
-            android:scaleType="centerInside"
-            app:barrierAllowsGoneWidgets="false"
-            app:layout_constraintBottom_toTopOf="@+id/imageButtonGenelCihazlar"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageButtonBahce"
-            app:layout_constraintTop_toBottomOf="@+id/imageButtonbirinciKat"
-            tools:ignore="MissingConstraints" />
-
-        <ImageButton
-            android:id="@+id/imageButtonGenelCihazlar"
-            android:layout_width="179dp"
-            android:layout_height="0dp"
-            android:layout_marginBottom="32dp"
-            android:background="@color/beige"
-            android:gravity="center"
-            android:scaleType="centerInside"
-            app:barrierAllowsGoneWidgets="false"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButtonKisBahcesi"
-            tools:ignore="MissingConstraints" />
-
+            android:text="Akıllı Evim Odaları"
+            android:textColor="@color/coffee"
+            android:textSize="34sp"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="100dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

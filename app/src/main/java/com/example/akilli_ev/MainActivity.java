@@ -12,10 +12,14 @@ public class MainActivity extends AppCompatActivity {
 
     ImageButton bahce;
     ImageButton kis_bahcesi;
-    ImageButton birinci_kat;
-    ImageButton zeminkat;
-
-    ImageButton genelCihazlar;
+    ImageButton cocuk_odasi;
+    ImageButton yatak_odasi;
+    ImageButton calisma_odasi;
+    ImageButton ebeveyn_banyosu;
+    ImageButton mutfak;
+    ImageButton salon;
+    ImageButton antre;
+    ImageButton misafirOdasi;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -23,16 +27,52 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        bahce=findViewById(R.id.imageButtonBahce);
-        kis_bahcesi=findViewById(R.id.imageButtonKisBahcesi);
-        birinci_kat=findViewById(R.id.imageButtonbirinciKat);
-        zeminkat=findViewById(R.id.imageButtonZeminKat);
-        genelCihazlar=findViewById(R.id.imageButtonGenelCihazlar);
+        bahce=findViewById(R.id.imageButtonbahce);
+        kis_bahcesi=findViewById(R.id.imageButtonkisbahcesi);
+        cocuk_odasi=findViewById(R.id.imageButtoncocuk_odasi);
+        yatak_odasi=findViewById(R.id.imageButtonebeveynyatakodasi);
+        calisma_odasi=findViewById(R.id.imageButtoncalisma_odasi);
+        ebeveyn_banyosu=findViewById(R.id.imageButtonebeveyn_banyosu);
+        mutfak=findViewById(R.id.imageButtonmutfak);
+        salon=findViewById(R.id.imageButtonsalon);
+        antre=findViewById(R.id.imageButtonantre);
+        misafirOdasi=findViewById(R.id.imageButtonmisafir_odasi);
 
         bahce.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, MainActivity.class);
+                startActivity(i);
+            }
+        });
+        mutfak.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, mutfak.class);
+                startActivity(i);
+            }
+        });
+
+        antre.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, mutfak.class);
+                startActivity(i);
+            }
+        });
+
+        misafirOdasi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, misafir_odasi.class);
+                startActivity(i);
+            }
+        });
+
+        salon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, mutfak.class);
                 startActivity(i);
             }
         });
@@ -44,24 +84,33 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        birinci_kat.setOnClickListener(new View.OnClickListener() {
+        cocuk_odasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, birinci_kat.class);
+                Intent i = new Intent(MainActivity.this, CocukOdasi.class);
                 startActivity(i);
             }
         });
-        zeminkat.setOnClickListener(new View.OnClickListener() {
+        yatak_odasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, zeminKat.class);
+                Intent i = new Intent(MainActivity.this, MainActivity.class);
                 startActivity(i);
             }
         });
-        genelCihazlar.setOnClickListener(new View.OnClickListener() {
+
+        calisma_odasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, genel_cihazlar.class);
+                Intent i = new Intent(MainActivity.this, CalismaOdasi.class);
+                startActivity(i);
+            }
+        });
+
+        ebeveyn_banyosu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, EbeveynBanyosu.class);
                 startActivity(i);
             }
         });

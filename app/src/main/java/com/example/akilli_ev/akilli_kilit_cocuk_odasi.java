@@ -6,15 +6,20 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class akilli_kilit_cocuk_odasi extends AppCompatActivity {
     private boolean isLockOn = false;
+    ImageView geri;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_akilli_kilit_cocuk_odasi);
+
+        geri=findViewById(R.id.imageViewgeri);
 
 
         @SuppressLint({"MissingInflatedId", "LocalSuppress"})

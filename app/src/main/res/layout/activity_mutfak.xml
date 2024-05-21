@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mutfak"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mutfakbg"
+    tools:context=".mutfak">
+
+    <ImageView
+        android:id="@+id/imageViewBulasikMakinesi"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewkacak_tespiti"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewfirin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewbuzdolabi"
+        app:srcCompat="@drawable/btnbulasik_makinesi" />
+
+    <ImageView
+        android:id="@+id/imageViewOcak"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewmikrodalga"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewkahve_makinesi"
+        app:srcCompat="@drawable/btnocak" />
+
+    <ImageView
+        android:id="@+id/imageViewkacak_tespiti"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewmikrodalga"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewkahve_makinesi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewBulasikMakinesi"
+        app:srcCompat="@drawable/btnkacak_tespiti" />
+
+    <ImageView
+        android:id="@+id/imageViewaspirator"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewfirin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.765"
+        app:layout_constraintStart_toEndOf="@+id/imageViewbuzdolabi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btnaspirator" />
+
+    <ImageView
+        android:id="@+id/imageViewbuzdolabi"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewBulasikMakinesi"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewaspirator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btnakilli_buzdolabi" />
+
+    <ImageView
+        android:id="@+id/imageViewgeri"
+        android:layout_width="109dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/geri" />
+
+    <ImageView
+        android:id="@+id/imageViewmikrodalga"
+        android:layout_width="154dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewOcak"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewkacak_tespiti"
+        app:srcCompat="@drawable/btnmikrodalga" />
+
+    <ImageView
+        android:id="@+id/imageViewkahve_makinesi"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewOcak"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewkacak_tespiti"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewfirin"
+        app:srcCompat="@drawable/btnkahve_makinesi" />
+
+    <ImageView
+        android:id="@+id/imageViewfirin"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewkahve_makinesi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewBulasikMakinesi"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewaspirator"
+        app:srcCompat="@drawable/btnfirin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
