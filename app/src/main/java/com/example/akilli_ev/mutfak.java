@@ -32,14 +32,15 @@ public class mutfak extends AppCompatActivity {
         imageView11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(mutfak.this, misafir_odasi.class);
+                Intent intent = new Intent(mutfak.this, MainActivity.class);
                 startActivity(intent);
             }
         });
 
 
+
         // ImageView'a tıklama olayını ekleyin
-        ImageView imageView = findViewById(R.id.imageViewaspirator);
+        ImageView imageView = findViewById(R.id.imageView);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,7 +49,7 @@ public class mutfak extends AppCompatActivity {
             }
         });
 
-        ImageView imageView3 = findViewById(R.id.imageViewbuzdolabi);
+        ImageView imageView3 = findViewById(R.id.imageView3);
         imageView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,7 +59,7 @@ public class mutfak extends AppCompatActivity {
         });
 
 
-        ImageView imageView4 = findViewById(R.id.imageViewBulasikMakinesi);
+        ImageView imageView4 = findViewById(R.id.imageView4);
         imageView4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,7 +68,7 @@ public class mutfak extends AppCompatActivity {
             }
         });
 
-        ImageView imageView5 = findViewById(R.id.imageViewfirin);
+        ImageView imageView5 = findViewById(R.id.imageView5);
         imageView5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,7 +78,7 @@ public class mutfak extends AppCompatActivity {
         });
 
 
-        ImageView imageView6 = findViewById(R.id.imageViewkacak_tespiti);
+        ImageView imageView6 = findViewById(R.id.imageView6);
         imageView6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -87,7 +88,7 @@ public class mutfak extends AppCompatActivity {
         });
 
 
-        ImageView imageView7 = findViewById(R.id.imageViewkahve_makinesi);
+        ImageView imageView7 = findViewById(R.id.imageView7);
         imageView7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -97,7 +98,7 @@ public class mutfak extends AppCompatActivity {
         });
 
 
-        ImageView imageView8 = findViewById(R.id.imageViewmikrodalga);
+        ImageView imageView8 = findViewById(R.id.imageView8);
         imageView8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -108,7 +109,7 @@ public class mutfak extends AppCompatActivity {
 
 
 
-        ImageView imageView9 = findViewById(R.id.imageViewOcak);
+        ImageView imageView9 = findViewById(R.id.imageView9);
         imageView9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -120,3 +121,4 @@ public class mutfak extends AppCompatActivity {
 
     }
 }
+

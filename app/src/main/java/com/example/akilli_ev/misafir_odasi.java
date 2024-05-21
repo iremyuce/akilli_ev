@@ -28,7 +28,7 @@ public class misafir_odasi extends AppCompatActivity {
         imageView11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(misafir_odasi.this, mutfak.class);
+                Intent intent = new Intent(misafir_odasi.this, MainActivity.class);
                 startActivity(intent);
             }
         });
