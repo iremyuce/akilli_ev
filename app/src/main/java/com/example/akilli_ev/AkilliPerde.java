@@ -2,6 +2,7 @@ package com.example.akilli_ev;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -96,6 +97,14 @@ public class AkilliPerde extends AppCompatActivity {
                     Toast.makeText(AkilliPerde.this, "Misafir odası perdesi açıldı.", Toast.LENGTH_LONG).show();
                 }
                 isMisafirOdasiClosed = !isMisafirOdasiClosed;
+            }
+        });
+
+        geributon2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(AkilliPerde.this, MainActivity.class);
+                startActivity(i);
             }
         });
 

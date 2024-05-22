@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -36,6 +37,14 @@ public class calisma_odasi_kilit extends AppCompatActivity {
                     lampLayout.setBackgroundResource(R.drawable.calisma_odasi_kapali_kilit);
                     Toast.makeText(calisma_odasi_kilit.this, "Kilit kapatıldı.", Toast.LENGTH_LONG).show();
                 }
+            }
+        });
+
+        geri5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(calisma_odasi_kilit.this, CalismaOdasi.class);
+                startActivity(i);
             }
         });
     }

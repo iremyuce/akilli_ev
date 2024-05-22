@@ -44,7 +44,7 @@ public class MasaLambasi extends AppCompatActivity {
         geri9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MasaLambasi.this, MainActivity.class);
+                Intent intent = new Intent(MasaLambasi.this, CalismaOdasi.class);
                 startActivity(intent);
             }
         });

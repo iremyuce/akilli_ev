@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -36,6 +37,14 @@ public class akilli_kilit_cocuk_odasi extends AppCompatActivity {
                     lampLayout.setBackgroundResource(R.drawable.cocuk_odasi_kapali_kilit);
                     Toast.makeText(akilli_kilit_cocuk_odasi.this, "Kilit kapatıldı.", Toast.LENGTH_LONG).show();
                 }
+            }
+        });
+
+        geri.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(akilli_kilit_cocuk_odasi.this, CocukOdasi.class);
+                startActivity(i);
             }
         });
     }

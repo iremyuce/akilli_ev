@@ -41,7 +41,7 @@ public class Monitor extends AppCompatActivity {
         geri10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Monitor.this, MainActivity.class);
+                Intent intent = new Intent(Monitor.this, CalismaOdasi.class);
                 startActivity(intent);
             }
         });

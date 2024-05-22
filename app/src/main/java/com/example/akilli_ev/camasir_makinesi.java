@@ -3,6 +3,7 @@ package com.example.akilli_ev;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -66,6 +67,14 @@ public class camasir_makinesi extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(camasir_makinesi.this,"Çamaşır makinesi ön yıkama modunda çalıştırıldı. ",Toast.LENGTH_LONG).show();
+            }
+        });
+
+        geri7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(camasir_makinesi.this, EbeveynBanyosu.class);
+                startActivity(i);
             }
         });
 

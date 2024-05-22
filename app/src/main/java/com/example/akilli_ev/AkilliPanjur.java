@@ -2,6 +2,7 @@ package com.example.akilli_ev;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -83,6 +84,14 @@ public class AkilliPanjur extends AppCompatActivity {
                     Toast.makeText(AkilliPanjur.this, "Mutfak panjuru açıldı.", Toast.LENGTH_LONG).show();
                 }
                 isMutfak2Closed = !isMutfak2Closed;
+            }
+        });
+
+        geributon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(AkilliPanjur.this, MainActivity.class);
+                startActivity(i);
             }
         });
 

@@ -21,7 +21,7 @@ public class ses_sistemi_cocuk_odasi extends AppCompatActivity {
         turnback5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ses_sistemi_cocuk_odasi.this, MainActivity.class);
+                Intent intent = new Intent(ses_sistemi_cocuk_odasi.this, CocukOdasi.class);
                 startActivity(intent);
             }
         });

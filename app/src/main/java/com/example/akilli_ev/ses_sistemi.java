@@ -23,7 +23,7 @@ public class ses_sistemi extends AppCompatActivity {
         turnback2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ses_sistemi.this, MainActivity.class);
+                Intent intent = new Intent(ses_sistemi.this, CalismaOdasi.class);
                 startActivity(intent);
             }
         });

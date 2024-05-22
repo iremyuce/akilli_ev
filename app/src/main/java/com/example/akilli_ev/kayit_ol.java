@@ -41,7 +41,7 @@ public class kayit_ol extends AppCompatActivity {
         geri8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(kayit_ol.this, MainActivity.class);
+                Intent intent = new Intent(kayit_ol.this, giris_ekrani.class);
                 startActivity(intent);
             }
         });

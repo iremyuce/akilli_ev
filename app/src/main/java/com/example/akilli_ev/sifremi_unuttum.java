@@ -37,7 +37,7 @@ public class sifremi_unuttum extends AppCompatActivity {
         turnback6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(sifremi_unuttum.this, MainActivity.class);
+                Intent intent = new Intent(sifremi_unuttum.this, giris_ekrani.class);
                 startActivity(intent);
             }
         });

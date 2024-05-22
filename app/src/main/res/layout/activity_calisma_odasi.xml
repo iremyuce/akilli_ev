@@ -30,7 +30,6 @@
         android:contentDescription="TODO"
         android:gravity="center"
         android:scaleType="centerInside"
-        android:src="@drawable/akilli_kilit"
         app:barrierAllowsGoneWidgets="false"
         app:layout_constraintBottom_toTopOf="@+id/imageButtonSesSistemi"
         app:layout_constraintEnd_toStartOf="@+id/imageButtonPC"
@@ -54,7 +53,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButtonSesSistemi"
         app:layout_constraintTop_toBottomOf="@+id/imageButtonPC"
-        app:srcCompat="@drawable/masa_lambasi"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
@@ -74,7 +72,6 @@
         app:layout_constraintEnd_toStartOf="@+id/imageButtonLamba"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButtonPanjurPerde"
-        app:srcCompat="@drawable/hoparlor"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
@@ -94,7 +91,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButtonPanjurPerde"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/monitor"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

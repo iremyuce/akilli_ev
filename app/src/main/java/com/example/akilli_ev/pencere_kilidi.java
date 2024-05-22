@@ -21,7 +21,7 @@ public class pencere_kilidi extends AppCompatActivity {
         turnback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(pencere_kilidi.this, MainActivity.class);
+                Intent intent = new Intent(pencere_kilidi.this, CocukOdasi.class);
                 startActivity(intent);
             }
         });
