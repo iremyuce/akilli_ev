@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Akilli_ev"
         tools:targetApi="31">
+
         <activity
             android:name=".Veranda"
             android:exported="false" />
@@ -97,9 +98,6 @@
             android:name=".bulasik_makinesi"
             android:exported="false" />
         <activity
-            android:name=".genel_cihazlar"
-            android:exported="false" />
-        <activity
             android:name=".AkilliPanjur"
             android:exported="false" />
         <activity
@@ -142,12 +140,6 @@
             android:name=".CalismaOdasi"
             android:exported="false" />
         <activity
-            android:name=".birinci_kat"
-            android:exported="false" />
-        <activity
-            android:name=".zeminKat"
-            android:exported="false" />
-        <activity
             android:name=".kayit_ol"
             android:exported="false" />
         <activity
@@ -158,7 +150,11 @@
             android:exported="false" />
         <activity
             android:name=".giris_ekrani"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_screen"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
