@@ -7,12 +7,22 @@
     android:background="@drawable/ebeveyn_banyosu"
     tools:context=".EbeveynBanyosu">
 
+    <ImageView
+        android:id="@+id/imageViewGeri"
+        android:layout_width="109dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/geri" />
+
     <ImageButton
         android:id="@+id/imageButtonCamasirMakinesi"
         android:layout_width="164dp"
         android:layout_height="152dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="49dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="116dp"
         android:background="@drawable/camasir_makiensi"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

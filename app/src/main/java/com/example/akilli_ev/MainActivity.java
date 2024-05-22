@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class MainActivity extends AppCompatActivity {
 
     ImageButton bahce;
@@ -20,6 +22,15 @@ public class MainActivity extends AppCompatActivity {
     ImageButton salon;
     ImageButton antre;
     ImageButton misafirOdasi;
+    ImageButton veranda;
+
+    FloatingActionButton perde;
+    FloatingActionButton panjur;
+    FloatingActionButton havaTemizleyici;
+    FloatingActionButton havaKalitesi;
+    FloatingActionButton duman;
+    FloatingActionButton sicaklik;
+    FloatingActionButton kamera;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -37,6 +48,71 @@ public class MainActivity extends AppCompatActivity {
         salon=findViewById(R.id.imageButtonsalon);
         antre=findViewById(R.id.imageButtonantre);
         misafirOdasi=findViewById(R.id.imageButtonmisafir_odasi);
+        veranda=findViewById(R.id.imageButtonveranda);
+        perde=findViewById(R.id.floatingActionButtonPerde);
+        panjur=findViewById(R.id.floatingActionButtonPanjur);
+        havaKalitesi=findViewById(R.id.floatingActionButtonHavaKalitesi);
+        havaTemizleyici=findViewById(R.id.floatingActionButtonHavaTemzileyici);
+        duman=findViewById(R.id.floatingActionButtonDumanSensoru);
+        sicaklik=findViewById(R.id.floatingActionButtonSicaklikSensoru);
+        kamera=findViewById(R.id.floatingActionButtonKamera);
+
+
+        havaKalitesi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, AkilliPanjur.class);
+                startActivity(i);
+            }
+        });
+
+        duman.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, AkilliPanjur.class);
+                startActivity(i);
+            }
+        });
+
+        sicaklik.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, AkilliPanjur.class);
+                startActivity(i);
+            }
+        });
+
+        kamera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, AkilliPanjur.class);
+                startActivity(i);
+            }
+        });
+
+        havaTemizleyici.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, AkilliPanjur.class);
+                startActivity(i);
+            }
+        });
+
+        panjur.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, AkilliPanjur.class);
+                startActivity(i);
+            }
+        });
+
+        perde.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, AkilliPerde.class);
+                startActivity(i);
+            }
+        });
 
         bahce.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
         antre.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, mutfak.class);
+                Intent i = new Intent(MainActivity.this, Antre.class);
                 startActivity(i);
             }
         });
@@ -72,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
         salon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, mutfak.class);
+                Intent i = new Intent(MainActivity.this, Saloon.class);
                 startActivity(i);
             }
         });
@@ -111,6 +187,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, EbeveynBanyosu.class);
+                startActivity(i);
+            }
+        });
+
+        veranda.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, Veranda.class);
                 startActivity(i);
             }
         });

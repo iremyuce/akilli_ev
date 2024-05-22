@@ -13,6 +13,54 @@
         android:theme="@style/Theme.Akilli_ev"
         tools:targetApi="31">
         <activity
+            android:name=".Veranda"
+            android:exported="false" />
+        <activity
+            android:name=".Television"
+            android:exported="false" />
+        <activity
+            android:name=".Tablet"
+            android:exported="false" />
+        <activity
+            android:name=".Speaker"
+            android:exported="false" />
+        <activity
+            android:name=".SmartFood"
+            android:exported="false" />
+        <activity
+            android:name=".Saloon"
+            android:exported="false" />
+        <activity
+            android:name=".RobotVacuum"
+            android:exported="false" />
+        <activity
+            android:name=".Projection"
+            android:exported="false" />
+        <activity
+            android:name=".MotionSensor"
+            android:exported="false" />
+        <activity
+            android:name=".Modem"
+            android:exported="false" />
+        <activity
+            android:name=".HomeAssistant"
+            android:exported="false" />
+        <activity
+            android:name=".FireAlarm"
+            android:exported="false" />
+        <activity
+            android:name=".DoorLock"
+            android:exported="false" />
+        <activity
+            android:name=".Curtain"
+            android:exported="false" />
+        <activity
+            android:name=".Antre"
+            android:exported="false" />
+        <activity
+            android:name=".Alarm"
+            android:exported="false" />
+        <activity
             android:name=".SecondActivity"
             android:exported="false" />
         <activity

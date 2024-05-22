@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/antre"
+    tools:context=".Tablet">
+
+    <ImageButton
+        android:id="@+id/turnBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/turnback"
+        android:padding="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_shape"/>
+
+
+    <TextView
+        android:id="@+id/centered_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:text="Tablet Kontrol"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:id="@+id/tabletRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/value_image"
+            android:layout_width="250dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/tablet"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/viewHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ev Görüntüle"
+            android:padding="20dp"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/button_shape"/>
+
+        <Button
+            android:id="@+id/aydinlatma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aydınlatma"
+            android:padding="20dp"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/button_shape"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/termostat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Termostat"
+            android:padding="20dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_shape"/>
+        <Button
+            android:id="@+id/security"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Güvenlik"
+            android:padding="20dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_shape"/>
+        <Button
+            android:id="@+id/deviceControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cihaz Kontrol"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_shape"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

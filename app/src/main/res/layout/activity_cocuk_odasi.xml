@@ -7,58 +7,64 @@
     android:background="@drawable/cocuk_odasi"
     tools:context=".CocukOdasi">
 
-    <ImageButton
-        android:id="@+id/imageButtonAkilliKilitCocukOdasi"
-        android:layout_width="205dp"
-        android:layout_height="173dp"
+    <ImageView
+        android:id="@+id/imageViewGeri2"
+        android:layout_width="109dp"
+        android:layout_height="41dp"
         android:layout_marginStart="16dp"
-        android:layout_marginEnd="190dp"
-        android:layout_marginBottom="21dp"
-        android:background="@drawable/akilli_kilit"
-        android:contentDescription="TODO"
-        android:gravity="center"
-        android:scaleType="centerInside"
-        android:src="@drawable/balkon_akilli_kilit"
-        app:barrierAllowsGoneWidgets="false"
-        app:layout_constraintBottom_toTopOf="@+id/imageButtonSesSistemiCocukOdasi"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/geri" />
 
     <ImageButton
         android:id="@+id/imageButtonSesSistemiCocukOdasi"
-        android:layout_width="210dp"
-        android:layout_height="170dp"
-        android:layout_marginStart="197dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginBottom="20dp"
+        android:layout_width="174dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/ses_sistemi"
         android:contentDescription="TODO"
         android:gravity="center"
         android:scaleType="centerInside"
         android:src="@drawable/hoparlor"
         app:barrierAllowsGoneWidgets="false"
-        app:layout_constraintBottom_toTopOf="@+id/imageButtonPencereKilidi"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAkilliKilitCocukOdasi"
+        android:layout_width="174dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="23dp"
+        android:background="@drawable/akilli_kilit"
+        android:contentDescription="TODO"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/balkon_akilli_kilit"
+        app:barrierAllowsGoneWidgets="false"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonSesSistemiCocukOdasi"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/imageButtonPencereKilidi"
-        android:layout_width="210dp"
-        android:layout_height="170dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginEnd="166dp"
-        android:layout_marginBottom="60dp"
+        android:layout_width="174dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
         android:background="@drawable/pencere_kilidi"
         android:contentDescription="TODO"
         android:gravity="center"
         android:scaleType="centerInside"
         app:barrierAllowsGoneWidgets="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonAkilliKilitCocukOdasi"
         tools:ignore="MissingConstraints" />
 
 

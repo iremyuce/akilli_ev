@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/salon"
+    tools:context=".Speaker">
+
+    <ImageButton
+        android:id="@+id/turnBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/turnback"
+        android:padding="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_shape"/>
+
+    <TextView
+        android:id="@+id/centered_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:text="Ev Asistanı"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:id="@+id/robotVacuumRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/value_image"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/home_assistant" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/baslat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aç/Kapa"
+            android:padding="10dp"
+            android:background="@drawable/button_shape"
+            android:layout_margin="10dp"/>
+        <Button
+            android:id="@+id/sesliKomut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sesli Komut"
+            android:padding="10dp"
+            android:background="@drawable/button_shape"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alarm"
+            android:padding="10dp"
+            android:background="@drawable/button_shape"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wi-Fi"
+            android:padding="10dp"
+            android:background="@drawable/button_shape"
+            android:layout_margin="10dp"/>
+        <Button
+            android:id="@+id/bluetooth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth"
+            android:padding="10dp"
+            android:background="@drawable/button_shape"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kamera"
+            android:padding="10dp"
+            android:background="@drawable/button_shape"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/security"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Güvenlik"
+            android:padding="10dp"
+            android:background="@drawable/button_shape"
+            android:layout_margin="10dp"/>
+        <Button
+            android:id="@+id/remoteControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uzaktan Erişim"
+            android:padding="10dp"
+            android:background="@drawable/button_shape"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

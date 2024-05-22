@@ -7,12 +7,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class CocukOdasi extends AppCompatActivity {
 
     ImageButton akilli_kilit_cocuk_oda;
     ImageButton pencere_kilidi;
     ImageButton ses_sistemi_cocuk_odasi;
+    ImageView geri2;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -22,6 +24,15 @@ public class CocukOdasi extends AppCompatActivity {
         akilli_kilit_cocuk_oda=findViewById(R.id.imageButtonAkilliKilitCocukOdasi);
         pencere_kilidi=findViewById(R.id.imageButtonPencereKilidi);
         ses_sistemi_cocuk_odasi=findViewById(R.id.imageButtonSesSistemiCocukOdasi);
+        geri2=findViewById(R.id.imageViewGeri2);
+
+        geri2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(CocukOdasi.this, MainActivity.class);
+                startActivity(i);
+            }
+        });
 
         akilli_kilit_cocuk_oda.setOnClickListener(new View.OnClickListener() {
             @Override
