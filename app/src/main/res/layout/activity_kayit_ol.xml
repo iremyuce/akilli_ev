@@ -7,6 +7,16 @@
     android:background="@drawable/ana_sayfa_arka_plan"
     tools:context=".kayit_ol">
 
+    <ImageView
+        android:id="@+id/imageViewGeri8"
+        android:layout_width="109dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/geri" />
+
     <EditText
         android:id="@+id/emailEditText"
         android:layout_width="411dp"

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.Switch;
 import android.widget.Toast;
 
@@ -15,6 +16,7 @@ public class AkilliPerde extends AppCompatActivity {
     Switch mutfak;
     Switch misafirOdasi;
     Switch calismaOdasi;
+    ImageView geributon2;
 
     private boolean isYatakOdasiClosed = false;
     private boolean isCocukOdasiClosed = false;
@@ -35,6 +37,7 @@ public class AkilliPerde extends AppCompatActivity {
         mutfak = findViewById(R.id.switchMutfak);
         misafirOdasi = findViewById(R.id.switchMisafirOdasi);
         calismaOdasi = findViewById(R.id.switchCalismaOdasi);
+        geributon2=findViewById(R.id.imageViewgeributon2);
 
         yatakOdasi.setOnClickListener(new View.OnClickListener() {
             @Override

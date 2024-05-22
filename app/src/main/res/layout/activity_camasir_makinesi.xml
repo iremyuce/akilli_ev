@@ -7,6 +7,16 @@
     android:background="@drawable/camasir_makinesi_arka_plan"
     tools:context=".camasir_makinesi">
 
+    <ImageView
+        android:id="@+id/imageViewGeri7"
+        android:layout_width="109dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/geri" />
+
     <ImageButton
         android:id="@+id/imageButtonPause"
         android:layout_width="0dp"

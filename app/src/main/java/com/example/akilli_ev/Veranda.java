@@ -11,6 +11,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 public class Veranda extends AppCompatActivity {
+
+    ImageButton turnback7;
     CardView projeksiyonCardView, perdeCardView;
     @SuppressLint("MissingInflatedId")
     @Override
@@ -21,6 +23,7 @@ public class Veranda extends AppCompatActivity {
 
         projeksiyonCardView = (CardView) findViewById(R.id.projeksiyonCardView);
         perdeCardView = (CardView) findViewById(R.id.perdeCardView);
+        turnback7=findViewById(R.id.turnBackButton7);
 
         projeksiyonCardView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,6 +35,14 @@ public class Veranda extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Veranda.this, Curtain.class));
+            }
+        });
+
+        turnback7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Veranda.this, MainActivity.class);
+                startActivity(intent);
             }
         });
 

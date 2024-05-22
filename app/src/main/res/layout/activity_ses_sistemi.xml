@@ -7,6 +7,15 @@
     android:background="@drawable/ses_sistemi_calisma_odasi"
     tools:context=".ses_sistemi">
 
+    <ImageButton
+        android:id="@+id/turnBackButton2"
+        android:layout_width="109dp"
+        android:layout_height="41dp"
+        android:background="@drawable/geri"
+        android:padding="15dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
     <SeekBar
         android:id="@+id/seekBarSesDüzeyi2"
         android:layout_width="0dp"

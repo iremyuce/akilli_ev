@@ -116,4 +116,13 @@
         </androidx.cardview.widget.CardView>
     </GridLayout>
 
+    <ImageButton
+        android:id="@+id/turnBackButton7"
+        android:layout_width="109dp"
+        android:layout_height="41dp"
+        android:background="@drawable/geri"
+        android:padding="15dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="26dp" />
+
 </RelativeLayout>

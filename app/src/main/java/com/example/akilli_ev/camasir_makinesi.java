@@ -2,9 +2,11 @@ package com.example.akilli_ev;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class camasir_makinesi extends AppCompatActivity {
@@ -23,7 +25,9 @@ public class camasir_makinesi extends AppCompatActivity {
     ImageButton uc;
     ImageButton dort;
     ImageButton bes;
+    ImageView geri7;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,6 +48,7 @@ public class camasir_makinesi extends AppCompatActivity {
         uc=findViewById(R.id.imageButtonUc);
         dort=findViewById(R.id.imageButtonDort);
         bes=findViewById(R.id.imageButtonBes);
+        geri7=findViewById(R.id.imageViewGeri7);
 
         ac.setOnClickListener(new View.OnClickListener() {
             @Override

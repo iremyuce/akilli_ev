@@ -7,6 +7,15 @@
     android:background="@drawable/pencere_kilidi_arka_plan"
     tools:context=".pencere_kilidi">
 
+    <ImageButton
+        android:id="@+id/turnBackButton3"
+        android:layout_width="109dp"
+        android:layout_height="41dp"
+        android:background="@drawable/geri"
+        android:padding="15dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
     <Switch
         android:id="@+id/switchPencereKilidi"
         android:layout_width="389dp"

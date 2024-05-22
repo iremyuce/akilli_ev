@@ -6,16 +6,21 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class calisma_odasi_kilit extends AppCompatActivity {
 
     private boolean isLockOn = false;
+    ImageView geri5;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calisma_odasi_kilit);
+
+        geri5=findViewById(R.id.imageViewGeri6);
 
         @SuppressLint({"MissingInflatedId", "LocalSuppress"})
         final ConstraintLayout lampLayout = findViewById(R.id.lampLayout);

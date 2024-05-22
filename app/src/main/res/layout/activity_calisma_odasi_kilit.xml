@@ -8,4 +8,13 @@
     android:background="@drawable/calisma_odasi_acik_kilit"
     tools:context=".calisma_odasi_kilit">
 
+    <ImageView
+        android:id="@+id/imageViewGeri6"
+        android:layout_width="109dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/geri" />
 </androidx.constraintlayout.widget.ConstraintLayout>

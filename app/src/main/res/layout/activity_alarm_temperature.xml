@@ -6,14 +6,14 @@
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".FireAlarm">
+
     <ImageButton
         android:id="@+id/turnBackButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/turnback"
-        android:padding="15dp"
+        android:layout_width="109dp"
+        android:layout_height="41dp"
         android:layout_marginTop="5dp"
-        android:background="@drawable/button_shape"/>
+        android:background="@drawable/geri"
+        android:padding="15dp" />
     <TextView
         android:id="@+id/centered_text"
         android:layout_width="match_parent"
