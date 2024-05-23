@@ -10,9 +10,11 @@
     <ImageView
         android:id="@+id/imageViewGeri7"
         android:layout_width="109dp"
-        android:layout_height="41dp"
+        android:layout_height="0dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="28dp"
+        android:layout_marginBottom="418dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonAcKapa"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/geri" />
@@ -21,23 +23,21 @@
         android:id="@+id/imageButtonPause"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="473dp"
-        android:layout_marginEnd="22dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginEnd="25dp"
         android:background="@android:drawable/divider_horizontal_dark"
         android:contentDescription="Durdur"
-        app:layout_constraintBottom_toTopOf="@+id/imageButtonYirmi"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonAcKapa"
         app:layout_constraintEnd_toStartOf="@+id/imageButtonOnYikama"
         app:layout_constraintStart_toEndOf="@+id/imageButtonAcKapa"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/imageButtonAcKapa" />
 
     <ImageButton
         android:id="@+id/imageButtonOnYikama"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="473dp"
+        android:layout_marginTop="487dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="46dp"
         android:background="@android:drawable/divider_horizontal_dark"
         android:contentDescription="Ön Yıkama"
         app:layout_constraintBottom_toTopOf="@+id/imageButtonOtuz"
@@ -49,9 +49,9 @@
         android:id="@+id/imageButtonPamuklu"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="473dp"
-        android:layout_marginEnd="38dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginTop="487dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="46dp"
         android:background="@android:drawable/divider_horizontal_dark"
         android:contentDescription="Pamuklu"
         app:layout_constraintBottom_toTopOf="@+id/imageButtonKirk"
@@ -63,9 +63,9 @@
         android:id="@+id/imageButtonYunlu"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="480dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="53dp"
+        android:layout_marginTop="487dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="46dp"
         android:background="@android:drawable/divider_horizontal_dark"
         android:contentDescription="Yünlü"
         app:layout_constraintBottom_toTopOf="@+id/imageButtonDoksan"
@@ -85,7 +85,7 @@
         app:layout_constraintBottom_toTopOf="@+id/imageButtonBir"
         app:layout_constraintEnd_toStartOf="@+id/imageButtonOtuz"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButtonPause" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonAcKapa" />
 
     <ImageButton
         android:id="@+id/imageButtonOtuz"
@@ -116,17 +116,16 @@
     <ImageButton
         android:id="@+id/imageButtonAcKapa"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="0dp"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="474dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="218dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="46dp"
         android:background="@android:drawable/divider_horizontal_dark"
         android:contentDescription="Aç/Kapa"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonYirmi"
         app:layout_constraintEnd_toStartOf="@+id/imageButtonPause"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageViewGeri7" />
 
     <ImageButton
         android:id="@+id/imageButtonBir"

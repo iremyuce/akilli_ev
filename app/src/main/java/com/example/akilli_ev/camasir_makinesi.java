@@ -70,6 +70,79 @@ public class camasir_makinesi extends AppCompatActivity {
             }
         });
 
+        pamuklu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(camasir_makinesi.this,"Çamaşır makinesi pamuklu programında çalıştırıldı. ",Toast.LENGTH_LONG).show();
+            }
+        });
+        yunlu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(camasir_makinesi.this,"Çamaşır makinesi yünlü programında çalıştırıldı. ",Toast.LENGTH_LONG).show();
+            }
+        });
+        yirmi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(camasir_makinesi.this,"Çamaşır makinesi 20 dereceye ayarlandı. ",Toast.LENGTH_LONG).show();
+            }
+        });
+        otuz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(camasir_makinesi.this,"Çamaşır makinesi 30 dereceye ayarlandı. ",Toast.LENGTH_LONG).show();
+            }
+        });
+        kirk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(camasir_makinesi.this,"Çamaşır makinesi 40 dereceye ayarlandı. ",Toast.LENGTH_LONG).show();
+            }
+        });
+        atmis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(camasir_makinesi.this,"Çamaşır makinesi 60 dereceye ayarlandı. ",Toast.LENGTH_LONG).show();
+            }
+        });
+        doksan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(camasir_makinesi.this,"Çamaşır makinesi 90 dereceye ayarlandı. ",Toast.LENGTH_LONG).show();
+            }
+        });
+        bir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(camasir_makinesi.this,"Çamaşır makinesi 1 sıkma yapacak. ",Toast.LENGTH_LONG).show();
+            }
+        });
+        iki.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(camasir_makinesi.this,"Çamaşır makinesi 2 sıkma yapacak. ",Toast.LENGTH_LONG).show();
+            }
+        });
+        uc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(camasir_makinesi.this,"Çamaşır makinesi 3 sıkma yapacak. ",Toast.LENGTH_LONG).show();
+            }
+        });
+        dort.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(camasir_makinesi.this,"Çamaşır makinesi 4 sıkma yapacak. ",Toast.LENGTH_LONG).show();
+            }
+        });
+        bes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(camasir_makinesi.this,"Çamaşır makinesi 5 sıkma yapacak. ",Toast.LENGTH_LONG).show();
+            }
+        });
+
         geri7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

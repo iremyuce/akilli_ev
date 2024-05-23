@@ -11,6 +11,7 @@
         android:id="@+id/textViewKilitIsim"
         android:layout_width="263dp"
         android:layout_height="46dp"
+        android:gravity="center"
         android:text="Akıllı Kilit Uygulaması"
         android:textColor="@color/süt_kahve"
         android:textSize="24sp"
