@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
     FloatingActionButton duman;
     FloatingActionButton sicaklik;
     FloatingActionButton kamera;
+    FloatingActionButton evkilit;
+
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -52,16 +54,24 @@ public class MainActivity extends AppCompatActivity {
         perde=findViewById(R.id.floatingActionButtonPerde);
         panjur=findViewById(R.id.floatingActionButtonPanjur);
         havaKalitesi=findViewById(R.id.floatingActionButtonHavaKalitesi);
-        havaTemizleyici=findViewById(R.id.floatingActionButtonHavaTemzileyici);
+        havaTemizleyici=findViewById(R.id.floatingActionButtonHavaTemizleyici);
         duman=findViewById(R.id.floatingActionButtonDumanSensoru);
         sicaklik=findViewById(R.id.floatingActionButtonSicaklikSensoru);
         kamera=findViewById(R.id.floatingActionButtonKamera);
+        evkilit=findViewById(R.id.floatingActionButtonEvKilit);
 
 
         havaKalitesi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, AkilliPanjur.class);
+                Intent i = new Intent(MainActivity.this, HavaKalitesiActivity.class);
+                startActivity(i);
+            }
+        });
+        evkilit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, ev_kilit.class);
                 startActivity(i);
             }
         });
@@ -85,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         kamera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, AkilliPanjur.class);
+                Intent i = new Intent(MainActivity.this, kamera_tum_odalar.class);
                 startActivity(i);
             }
         });
@@ -93,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
         havaTemizleyici.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, AkilliPanjur.class);
+                Intent i = new Intent(MainActivity.this, HavaTemizleyiciActivity.class);
                 startActivity(i);
             }
         });
@@ -117,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
         bahce.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, MainActivity.class);
+                Intent i = new Intent(MainActivity.this, BahceActivity.class);
                 startActivity(i);
             }
         });
@@ -156,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
         kis_bahcesi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, MainActivity.class);
+                Intent i = new Intent(MainActivity.this, kis_bahcesi.class);
                 startActivity(i);
             }
         });
@@ -170,7 +180,7 @@ public class MainActivity extends AppCompatActivity {
         yatak_odasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, MainActivity.class);
+                Intent i = new Intent(MainActivity.this, yatak_odasi.class);
                 startActivity(i);
             }
         });

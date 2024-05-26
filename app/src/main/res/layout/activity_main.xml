@@ -8,14 +8,25 @@
     tools:context=".MainActivity">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButtonHavaKalitesi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:clickable="true"
+            app:backgroundTint="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/floatingActionButtonKamera"
+            app:layout_constraintStart_toStartOf="@+id/floatingActionButtonKamera"
+            app:srcCompat="@android:drawable/ic_delete" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButtonSicaklikSensoru"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="41dp"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="32dp"
             android:clickable="true"
             app:backgroundTint="@color/white"
-            app:layout_constraintStart_toStartOf="@+id/floatingActionButtonPerde"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/floatingActionButtonPerde"
             app:srcCompat="@android:drawable/ic_dialog_alert" />
 
@@ -23,34 +34,35 @@
             android:id="@+id/floatingActionButtonKamera"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginStart="101dp"
+            android:layout_marginEnd="104dp"
+            android:layout_marginBottom="105dp"
             android:clickable="true"
             app:backgroundTint="@color/white"
-            app:layout_constraintEnd_toStartOf="@+id/floatingActionButtonHavaTemzileyici"
-            app:layout_constraintTop_toBottomOf="@+id/floatingActionButtonHavaTemzileyici"
-            app:srcCompat="@android:drawable/ic_dialog_alert" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/floatingActionButtonEvKilit"
+            app:layout_constraintStart_toStartOf="@+id/floatingActionButtonPanjur"
+            app:srcCompat="@drawable/ic_action_camera" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButtonDumanSensoru"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="37dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginStart="38dp"
             android:clickable="true"
             app:backgroundTint="@color/white"
-            app:layout_constraintStart_toStartOf="@+id/floatingActionButtonPanjur"
-            app:layout_constraintTop_toBottomOf="@+id/floatingActionButtonHavaKalitesi"
+            app:layout_constraintStart_toEndOf="@+id/floatingActionButtonSicaklikSensoru"
+            app:layout_constraintTop_toTopOf="@+id/floatingActionButtonSicaklikSensoru"
             app:srcCompat="@android:drawable/ic_dialog_alert" />
 
         <HorizontalScrollView
             android:id="@+id/horizontalScrollView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="224dp"
+            android:layout_marginTop="52dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toBottomOf="@+id/textView3">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -171,43 +183,43 @@
             android:layout_marginStart="16dp"
             android:clickable="true"
             app:backgroundTint="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/floatingActionButtonHavaTemizleyici"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/floatingActionButtonPanjur"
+            app:layout_constraintTop_toTopOf="@+id/floatingActionButtonHavaTemizleyici"
             app:srcCompat="@drawable/ic_action_perde" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButtonPanjur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="13dp"
             android:layout_marginBottom="32dp"
             android:clickable="true"
             app:backgroundTint="@color/white"
             app:layout_constraintBottom_toTopOf="@+id/floatingActionButtonDumanSensoru"
-            app:layout_constraintStart_toEndOf="@+id/floatingActionButtonSicaklikSensoru"
+            app:layout_constraintStart_toStartOf="@+id/floatingActionButtonDumanSensoru"
             app:srcCompat="@drawable/ic_action_panjur" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingActionButtonHavaKalitesi"
+            android:id="@+id/floatingActionButtonEvKilit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="9dp"
-            android:layout_marginBottom="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="27dp"
             android:clickable="true"
             app:backgroundTint="@color/white"
-            app:layout_constraintBottom_toTopOf="@+id/floatingActionButtonKamera"
-            app:layout_constraintStart_toEndOf="@+id/floatingActionButtonDumanSensoru"
-            app:srcCompat="@drawable/ic_action_camera" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/floatingActionButtonHavaTemizleyici"
+            app:srcCompat="@drawable/ic_action_kilit" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingActionButtonHavaTemzileyici"
+            android:id="@+id/floatingActionButtonHavaTemizleyici"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="27dp"
-            android:layout_marginBottom="193dp"
+            android:layout_marginBottom="8dp"
             android:clickable="true"
             app:backgroundTint="@color/white"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:srcCompat="@android:drawable/ic_dialog_alert" />
+            app:layout_constraintBottom_toBottomOf="@+id/floatingActionButtonHavaKalitesi"
+            app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

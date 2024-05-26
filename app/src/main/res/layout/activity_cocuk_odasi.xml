@@ -21,8 +21,8 @@
         android:id="@+id/imageButtonSesSistemiCocukOdasi"
         android:layout_width="174dp"
         android:layout_height="150dp"
-        android:layout_marginTop="96dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="200dp"
         android:background="@drawable/ses_sistemi"
         android:contentDescription="TODO"
         android:gravity="center"
@@ -31,40 +31,6 @@
         app:barrierAllowsGoneWidgets="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/imageButtonAkilliKilitCocukOdasi"
-        android:layout_width="174dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="96dp"
-        android:layout_marginEnd="23dp"
-        android:background="@drawable/akilli_kilit"
-        android:contentDescription="TODO"
-        android:gravity="center"
-        android:scaleType="centerInside"
-        android:src="@drawable/balkon_akilli_kilit"
-        app:barrierAllowsGoneWidgets="false"
-        app:layout_constraintEnd_toStartOf="@+id/imageButtonSesSistemiCocukOdasi"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/imageButtonPencereKilidi"
-        android:layout_width="174dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="36dp"
-        android:background="@drawable/pencere_kilidi"
-        android:contentDescription="TODO"
-        android:gravity="center"
-        android:scaleType="centerInside"
-        app:barrierAllowsGoneWidgets="false"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButtonAkilliKilitCocukOdasi"
         tools:ignore="MissingConstraints" />
 
 

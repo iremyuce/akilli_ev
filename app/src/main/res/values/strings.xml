@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">akilli_ev</string>
+    <string name="acik_kilit">Açık Kilit</string>
+    <string name="cim_bicme_robotu2">Çim Biçme Robotu</string>
+    <string name="havuz_islemleri">Havuz İşlemleri</string>
+    <string name="sulama_sistemi">Sulama Sistemi</string>
+    <string name="arac_sarj">Araç Şarj</string>
 </resources>

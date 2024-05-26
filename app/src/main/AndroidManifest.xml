@@ -12,7 +12,60 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Akilli_ev"
         tools:targetApi="31">
-
+        <activity
+            android:name=".yatak_odasi"
+            android:exported="false" />
+        <activity
+            android:name=".SulamaSistemiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SesSistemiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProjeksiyonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrtakAlanlarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HavuzIslemleriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HavaTemizleyiciActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HavaKalitesiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CimBicmeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BahceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AracSarjActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AkilliKilitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ses_sistemi_kis_bahcesi"
+            android:exported="false" />
+        <activity
+            android:name=".projeksiyon_kis_bahcesi"
+            android:exported="false" />
+        <activity
+            android:name=".isiitici_kis_bahcesi"
+            android:exported="false" />
+        <activity
+            android:name=".kis_bahcesi"
+            android:exported="false" />
+        <activity
+            android:name=".kamera_tum_odalar"
+            android:exported="false" />
+        <activity
+            android:name=".ev_kilit"
+            android:exported="false" />
         <activity
             android:name=".Veranda"
             android:exported="false" />
@@ -154,13 +207,14 @@
         <activity
             android:name=".Splash_screen"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver android:name=".NotificationReceiver" />
     </application>
 
 </manifest>
